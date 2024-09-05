@@ -82,5 +82,6 @@ email: ''
 highlight_name: true
 ---
 
-My research interests include AI/ML-based tools to find new ways of addressing persistent social problems. My work explores use of two-way radio in policing as a sociotechnical system shaping officer encounters with male youth of color.
+My research interests include AI/ML-based tools to find new ways of addressing persistent social problems. My work explores use of two-way radio in policing as a sociotechnical system shaping officer encounters with male youth of color. My goal is to develop speech-based methodologies for studying how local institutional actors stabilize and perpetuate space-based social inequality. My aspirations include (a) development of participatory data governance policies for a national repository of policing data; (b) deployment of explainable models for processing unstructured policing data, specifically radio transmissions; (c) engagement with community members to determine both appropriate standards for responsible access to policing data and identify research questions addressing the needs and concerns of local residents. 
+
 {style="text-align: justify;"}
