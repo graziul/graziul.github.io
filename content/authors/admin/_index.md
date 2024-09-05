@@ -82,5 +82,5 @@ email: ''
 highlight_name: true
 ---
 
-My research interests include AI/ML-based tools to find new ways of addressing persistent social problems, like state violence. My work explores use of two-way radio in policing as a sociotechnical system shaping officer encounters with male youth of color.
+My research interests include AI/ML-based tools to find new ways of addressing persistent social problems. My work explores use of two-way radio in policing as a sociotechnical system shaping officer encounters with male youth of color.
 {style="text-align: justify;"}
