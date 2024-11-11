@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Chris Graziul
+title: Christopher M. Graziul
 
 # Full name (for SEO)
 first_name: Christopher
