@@ -23,5 +23,5 @@ main:
     url: https://dl.acm.org/doi/10.1145/3686921
     weight: 50
   - name: SLT 2024
-    url: https://arxiv.org/abs/2409.10858
+    url: https://slt2024.github.io/proceedings/papers/SLT2024_P298.pdf
     weight: 50
