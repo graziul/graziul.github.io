@@ -82,5 +82,12 @@ email: ''
 highlight_name: true
 ---
 
-My research interests include AI/ML-based tools to find new ways of addressing persistent social problems. My work explores use of two-way radio in policing as a sociotechnical system shaping officer encounters with male youth of color. My goal is to develop speech-based methodologies for studying how local institutional actors stabilize and perpetuate space-based social inequality. My aspirations include (a) development of participatory data governance policies for a national repository of policing data; (b) deployment of explainable models for processing unstructured policing data, specifically radio transmissions; (c) engagement with community members to both determine appropriate standards for responsible access to policing data and identify research questions addressing the needs and concerns of local residents. 
+My research examines the promise and limits of AI/ML-based tools to study policing, specifically the role of two-way radio as mediating officer coordination and behavior. This work seeks to clarify what happens before and during encounters with the public, with focus on male youth of color, by making sense of these radio transmissions as an understudied sociotechnical system critical to the practice of policing. Since little work has explored how officers make use of this technology in practice, much of my work has involved navigating the lack of ethical guidelines around publicly available data which, nonetheless, contains sensitive information about members of the public. 
+
+By developing the tools needed to analyze police radio communications, my goal is to create opportunities for others to study radio policing and thus demystify routine police activity as well as identify trends and patterns relevant to public safety, public health, and related policymaking. t
+
+My aspirations include (a) development of participatory data governance policies for a national repository of policing data; (b) deployment of explainable models for processing unstructured policing data, specifically radio transmissions; (c) engagement with community members to both determine appropriate standards for responsible access to policing data and identify research questions addressing the needs and concerns of local residents. 
+
+I am currently on the tenure-track faculty job market, but I also love to do time-bounded projects! (Reach out if you need a team player with experience in management consulting, numerical optimization, and social science research!)
+
 {style="text-align: justify;"}
