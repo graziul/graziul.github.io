@@ -27,7 +27,8 @@ bio: My research interests include computational social science, critical polici
 # Interests to show in About widget
 interests:
   - Computational Social Science
-  - Critical Policing Studies
+  - Translational AI
+  - AI Ethics
   - Urban Sociology
   - Social Networks
   - Spatial Analysis
