@@ -68,7 +68,7 @@ social:
     link: https://scholar.google.com/citations?user=OQr5RwsAAAAJ
   - icon: orcid
     icon_pack: ai
-    link: https://https://orcid.org/0000-0001-8350-077X
+    link: https://orcid.org/0000-0001-8350-077X
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/christopher-graziul-6250344/
