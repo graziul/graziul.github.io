@@ -66,12 +66,12 @@ social:
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?user=OQr5RwsAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/graziul
+  - icon: orcid
+    icon_pack: ai
+    link: https://https://orcid.org/0000-0001-8350-077X
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/christopher-graziul-ph-d-6250344
+    link: https://www.linkedin.com/in/christopher-graziul-6250344/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -83,12 +83,14 @@ email: ''
 highlight_name: true
 ---
 
-My research examines the promise and limits of AI/ML-based tools to study policing, specifically how two-way radio use relates to officer coordination and behavior. This work seeks to clarify what happens before and during encounters with the public by making sense of these radio transmissions as an understudied sociotechnical system critical to the practice of policing. Since little work has explored how officers make use of this technology in practice, much of my work has involved navigating the lack of ethical guidelines around publicly available data which, nonetheless, contains sensitive information about members of the public. 
+My research examines the promise and limits of AI/ML-based tools to study policing, specifically how two-way radio use relates to officer coordination and behavior. This work seeks to clarify what happens before and during encounters with the public by making sense of these radio transmissions as an understudied sociotechnical system critical to the practice of policing. 
 
-By developing the tools needed to analyze police radio communications, my goal is to create opportunities for others to study radio policing and thus demystify routine police activity as well as identify trends and patterns relevant to public safety, public health, and related policymaking. 
+Since little work has explored how officers use two-way radio in practice, much of my work involves navigating the notable lack of legal guidelines covering publicly available data which, nonetheless, contains sensitive information about members of the public. 
+
+My goal is to create opportunities for others to study radio policing and demystify routine police activity while identifying trends and patterns relevant to public safety, public health, and related policymaking. 
 
 My aspirations include (a) development of participatory data governance policies for a national repository of policing data; (b) deployment of explainable models for processing unstructured policing data, specifically radio transmissions; (c) engagement with community members to both determine appropriate standards for responsible access to policing data and identify research questions addressing the needs and concerns of local residents. 
 
-I am currently on the tenure-track faculty job market, but I also love to do time-bounded projects! (Reach out if you need a team player with experience in management consulting, numerical optimization, and social science research!)
+I am currently on the tenure-track faculty job market, but I also love to do time-bounded projects! 
 
 {style="text-align: justify;"}
