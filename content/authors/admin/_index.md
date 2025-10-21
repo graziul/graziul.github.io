@@ -14,12 +14,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research Assistant Professor, Comparative Human Development
+role: Preceptor, Digital Humanities
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Chicago
-    url: https://humdev.uchicago.edu/
+    url: https://digitalstudies.uchicago.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include computational social science, critical policing studies, and urban sociology
@@ -83,13 +83,11 @@ email: ''
 highlight_name: true
 ---
 
-My research examines the promise and limits of AI/ML-based tools to study policing, specifically how two-way radio use relates to officer coordination and behavior. This work seeks to clarify what happens before and during encounters with the public by making sense of these radio transmissions as an understudied sociotechnical system critical to the practice of policing. 
+My research examines the promise and limits of AI/ML-based tools to study policing, specifically how two-way radio use relates to officer coordination and behavior. This work seeks to clarify what happens before and during encounters with the public by making sense of these radio transmissions as an understudied sociotechnical system critical to the practice of policing. Little work has explored how officers use two-way radio in practice, so much of my work involves navigating the notable lack of legal guidelines covering publicly available data which, nonetheless, contains sensitive information about members of the public. 
 
-Since little work has explored how officers use two-way radio in practice, much of my work involves navigating the notable lack of legal guidelines covering publicly available data which, nonetheless, contains sensitive information about members of the public. 
+My current focus is on development of decentralized, autonomous data stewarding non-profits to reclaim our data rights and negotiate equitable use of our data by third parties. This model is intended to replace current practices that leverage the economic value of our data for profit without renumerating users accordingly.
 
-My goal is to create opportunities for others to study radio policing and demystify routine police activity while identifying trends and patterns relevant to public safety, public health, and related policymaking. 
-
-My aspirations include (a) development of participatory data governance policies for a national repository of policing data; (b) deployment of explainable models for processing unstructured policing data, specifically radio transmissions; (c) engagement with community members to both determine appropriate standards for responsible access to policing data and identify research questions addressing the needs and concerns of local residents. 
+My aspirations include (a) development of participatory data governance policies; (b) deployment of explainable models for processing unstructured policing data, specifically radio transmissions; (c) engagement with community members to determine appropriate standards for responsible access to policing data and identify research questions addressing the needs of local residents. 
 
 I am currently on the tenure-track faculty job market, but I also love to do time-bounded projects! 
 
