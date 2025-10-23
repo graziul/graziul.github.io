@@ -351,5 +351,43 @@ The design is intentionally modular and well-commented for easy maintenance.
 
 ---
 
+## Recent Updates (Latest Session)
+
+### October 2025 - Version 2.1: Hugo Block Structure Optimization
+
+**Major Fixes:**
+
+1. **HTML Rendering Issue** - Resolved raw HTML displaying instead of rendered content
+   - Switched from single massive markdown block to proper Hugo block types
+   - Use `block: hero` for hero section
+   - Use separate `block: markdown` for each career phase
+   - Use `block: markdown` for resources (changed from collection)
+
+2. **Language Refinement** - Removed self-aggrandizing tone
+   - Removed "Ahead of My Time, Every Time" badge from hero
+   - Changed section titles to factual descriptions
+   - Let chronology and achievements speak for themselves
+   - Updated CSS comments to remove the phrase
+
+3. **CSS Structure Updates** - Adapted for Hugo's native block rendering
+   - Apply scroll-snap to `body` element instead of custom container
+   - Target `main > section` for fullscreen behavior (Wowchemy's structure)
+   - Updated all responsive breakpoints and print styles
+   - Maintains full-screen scroll-snap design with proper block structure
+
+4. **Dark Mode Support** - Fixed metric cards for theme compatibility
+   - Replaced inline styles with semantic CSS classes
+   - Use `.hero-highlights`, `.highlight-item`, `.highlight-number`, `.highlight-label`
+   - Proper dark mode support with `.dark` selectors
+
+**Files Modified:**
+- `content/_index.md` - Complete restructure with Hugo blocks
+- `assets/scss/custom.scss` - Updated selectors and removed phrase
+- Deleted `assets/js/audience-toggle.js` and `layouts/partials/custom_js.html` (no longer needed)
+
+**Result:** Site now renders properly with Hugo's native block system while maintaining the full-screen scroll-snap design and proper dark mode support.
+
+---
+
 **Last Updated**: October 2025
-**Version**: 2.0 (Audience-Aware Redesign)
+**Version**: 2.1 (Hugo Block Structure Optimization)
