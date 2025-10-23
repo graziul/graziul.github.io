@@ -14,22 +14,22 @@ sections:
 
         Research Assistant Professor, Department of Comparative Human Development, University of Chicago
 
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 40px 0;">
-          <div style="text-align: center; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
-            <div style="font-size: 36px; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">$2.7M</div>
-            <div style="font-size: 13px; color: #666; font-weight: 600;">NIH R01 Grant</div>
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <div class="highlight-number">$2.7M</div>
+            <div class="highlight-label">NIH R01 Grant</div>
           </div>
-          <div style="text-align: center; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
-            <div style="font-size: 36px; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">80K+</div>
-            <div style="font-size: 13px; color: #666; font-weight: 600;">Hours Police Radio Analyzed</div>
+          <div class="highlight-item">
+            <div class="highlight-number">80K+</div>
+            <div class="highlight-label">Hours Police Radio Analyzed</div>
           </div>
-          <div style="text-align: center; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
-            <div style="font-size: 36px; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">30M+</div>
-            <div style="font-size: 13px; color: #666; font-weight: 600;">Historic Census Records</div>
+          <div class="highlight-item">
+            <div class="highlight-number">30M+</div>
+            <div class="highlight-label">Historic Census Records</div>
           </div>
-          <div style="text-align: center; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06);">
-            <div style="font-size: 36px; font-weight: 900; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">15-20</div>
-            <div style="font-size: 13px; color: #666; font-weight: 600;">Graduate RAs Mentored</div>
+          <div class="highlight-item">
+            <div class="highlight-number">15-20</div>
+            <div class="highlight-label">Graduate RAs Mentored</div>
           </div>
         </div>
 
