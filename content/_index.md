@@ -48,7 +48,7 @@ sections:
         - **BS in Physics (Honors)** – Quantitative reasoning, experimental methods
         - **BS in Applied Computational Mathematics (Honors)** – Algorithms, numerical analysis
 
-        This rare combination positioned me to bridge computational methods with social science—a convergence that would define my career before "computational social science" became a recognized field.
+        This rare combination enabled bridging computational methods with social science—a convergence that defined subsequent career development before "computational social science" became a recognized field.
 
         ---
 
