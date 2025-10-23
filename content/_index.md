@@ -10,26 +10,26 @@ sections:
     content:
       title: Christopher M. Graziul, PhD
       text: |
-        **Computational Social Scientist** | **AI Ethics Researcher** | **Data Governance Innovator**
+        **Computational Social Scientist | AI Ethics Researcher | Data Governance Innovator**
 
         Preceptor, Digital Studies, University of Chicago
 
         <div class="hero-highlights">
           <div class="highlight-item">
-            <div class="highlight-number">$2.7M</div>
-            <div class="highlight-label">NIH R01 Grant</div>
+            <div class="highlight-number">$2.7M+</div>
+            <div class="highlight-label">Funding Secured</div>
           </div>
           <div class="highlight-item">
-            <div class="highlight-number">80K+</div>
-            <div class="highlight-label">Hours Police Radio Analyzed</div>
-          </div>
-          <div class="highlight-item">
-            <div class="highlight-number">30M+</div>
-            <div class="highlight-label">Historic Census Records</div>
-          </div>
-          <div class="highlight-item">
-            <div class="highlight-number">15-20</div>
+            <div class="highlight-number">Over 30</div>
             <div class="highlight-label">Graduate RAs Mentored</div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-number">Over 50</div>
+            <div class="highlight-label">Undergraduate RAs Supervised</div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-number">Over 30</div>
+            <div class="highlight-label">BA/MA Theses Advised</div>
           </div>
         </div>
 
@@ -42,49 +42,64 @@ sections:
       text: |
         <div class="timeline-section">
 
-        <div class="item-standard">
-        <div class="item-title">2004: Dual BS Degrees with Honors</div>
+        <h2 class="year-header">2004</h2>
+
+        <div class="item-card position">
+        <div class="item-title">Dual BS Degrees with Honors</div>
         <div class="item-meta">Virginia Tech</div>
         <ul>
-          <li><strong>BS in Physics (with honors)</strong> – Quantitative reasoning, experimental methods</li>
-          <li><strong>BS in Applied Computational Mathematics (with honors)</strong> – Algorithms, numerical analysis</li>
+          <li>BS in Physics (with honors)</li>
+          <li>BS in Applied Computational Mathematics (with honors)</li>
         </ul>
-        <p>This rare combination enabled bridging computational methods with social science—a convergence that defined subsequent career development before "computational social science" became a recognized field.</p>
+        <p>This rare combination enabled bridging computational methods with social science, a convergence that defined subsequent career development before "computational social science" became a recognized field.</p>
         </div>
 
-        <div class="item-standard">
-        <div class="item-title">2005–2009: Graduate Training</div>
+        <h2 class="year-header">2005–2009</h2>
+
+        <div class="item-card position">
+        <div class="item-title">Graduate Training</div>
         <div class="item-meta">University of Chicago</div>
         <ul>
           <li>MA in Social Science (2005)</li>
           <li>MA in Sociology (2009)</li>
-          <li>Integrated computational approaches with sociological theory</li>
         </ul>
         </div>
 
-        <div class="item-standard">
+        <h2 class="year-header">2008</h2>
+
+        <div class="item-card publication">
         <div class="item-title"><a href="https://www.science.org/doi/10.1126/science.1165796">Why Rich States Aren't Republican</a></div>
-        <div class="item-meta">Terry N. Clark and Christopher Graziul. <em>Science</em> 322, no. 5902 (October 31, 2008): 676–677.</div>
-        <p>Book review examining political geography and voting behavior, connecting place, politics, and social patterns. Early work connecting spatial analysis with political behavior, foreshadowing later research on how place shapes social life.</p>
+        <div class="item-meta">Clark TN, Graziul C. <em>Science</em> 322, no. 5902 (October 31, 2008): 676–677.</div>
+        <p>Book review examining political geography and voting behavior, connecting place, politics, and social patterns.</p>
         </div>
 
-        <div class="item-standard">
-        <div class="item-title">2012: Healthcare Data Science</div>
-        <div class="item-meta">Medical Care & BMC Health Services Research</div>
+        <h2 class="year-header">2012</h2>
 
-        <p><a href="https://doi.org/10.1097/MLR.0b013e31825a8f2a">Association Between the Commercial Characteristics of Psychotropic Drugs and Their Off-label Use.</a> Christopher Graziul, Robert Gibbons, and G. Caleb Alexander. <em>Medical Care</em> 50, no. 11 (November 2012): 940–947.</p>
-
-        <p><a href="https://doi.org/10.1186/1472-6963-12-435">Association Between Unemployment Rates and Prescription Drug Utilization in the United States, 2007–2010.</a> Denise Kozman, Christopher Graziul, Robert Gibbons, and G. Caleb Alexander. <em>BMC Health Services Research</em> 12, no. 1 (November 30, 2012): 435.</p>
-
-        <p>Applied data-driven methods to health policy before "big data" became mainstream in medicine.</p>
+        <div class="item-card publication">
+        <div class="item-title"><a href="https://doi.org/10.1097/MLR.0b013e31825a8f2a">Association Between the Commercial Characteristics of Psychotropic Drugs and Their Off-label Use</a></div>
+        <div class="item-meta">Graziul C, Gibbons R, Alexander GC. <em>Medical Care</em> 50, no. 11 (November 2012): 940–947.</div>
         </div>
 
-        <div class="item-major">
+        <div class="item-card publication">
+        <div class="item-title"><a href="https://doi.org/10.1186/1472-6963-12-435">Association Between Unemployment Rates and Prescription Drug Utilization in the United States, 2007–2010</a></div>
+        <div class="item-meta">Kozman D, Graziul C, Gibbons R, Alexander GC. <em>BMC Health Services Research</em> 12, no. 1 (November 30, 2012): 435.</div>
+        </div>
+
+        <h2 class="year-header">2014–2015</h2>
+
+        <div class="item-card position">
+        <div class="item-title">Preceptor</div>
+        <div class="item-meta">Master of Arts Program in the Social Sciences, University of Chicago</div>
+        </div>
+
+        <h2 class="year-header">2016</h2>
+
+        <div class="item-card publication major">
         <div class="item-title"><a href="https://knowledge.uchicago.edu/record/134">Venues: Locating Social Context</a></div>
-        <div class="item-meta">Christopher Graziul. PhD dissertation, University of Chicago, 2016. Committee: Terry N. Clark (Chair), James Evans, Omar McRoberts.</div>
+        <div class="item-meta">Graziul C. PhD dissertation, University of Chicago, 2016. Committee: Terry N. Clark (Chair), James Evans, Omar McRoberts.</div>
         <div class="item-description">
-        <p><strong>Abstract:</strong> This dissertation introduces "venues" as a new analytic concept to study how physical spaces with ostensible purposes and material culture shape social behavior. Bridges qualitative researchers studying individual spaces and quantitative researchers developing grand spatial models. Argues that venues extend and unify research across spatial scales, advancing sociological understanding of space and place.</p>
-        <p><strong>Theoretical Contribution:</strong> Developed frameworks for understanding how physical places constrain and enable social action—theoretical groundwork for later empirical work on policing as a spatially-organized system.</p>
+        <p>Introduced "venues" as a new analytic concept to study how physical spaces with ostensible purposes and material culture shape social behavior. Bridged qualitative researchers studying individual spaces and quantitative researchers developing grand spatial models.</p>
+        <p><strong>Theoretical Contribution:</strong> Developed frameworks for understanding how physical places constrain and enable social action, providing theoretical groundwork for later empirical work on policing as a spatially-organized system.</p>
         </div>
         </div>
 
@@ -99,40 +114,49 @@ sections:
       text: |
         <div class="timeline-section">
 
-        <div class="item-standard">
-        <div class="item-title">2016–2018: Postdoctoral Research Associate</div>
-        <div class="item-meta">Brown University | Spatial Structures in the Social Sciences</div>
+        <h2 class="year-header">2016–2018</h2>
+
+        <div class="item-card position">
+        <div class="item-title">Postdoctoral Research Associate</div>
+        <div class="item-meta">Spatial Structures in the Social Sciences, Brown University</div>
         <p><strong>Project:</strong> Geocoding full-count census data (1900–1940) for 69 cities</p>
         <ul>
-          <li><strong>30M+ records processed</strong> using Python, R, Stata, Matlab</li>
+          <li>30M+ records processed using Python, R, Stata, Matlab</li>
           <li>Developed novel segregation measures for point-level data</li>
           <li>Built scalable ETL workflows for historical demographic analysis</li>
-          <li>Analyzed residential patterns for 10+ racial/ethnic groups</li>
         </ul>
-        <p><strong>Methodological Innovation:</strong> Created computational infrastructure to analyze historical segregation at unprecedented scale and granularity. Transformed qualitative historical questions into quantifiable patterns.</p>
         </div>
 
-        <div class="item-major">
+        <h2 class="year-header">2017</h2>
+
+        <div class="item-card publication">
+        <div class="item-title"><a href="https://doi.org/10.1007/s13644-017-0284-8">Religious Conservatives and Outsiders: Determinants of Cross-Racial Ties Among White Christians</a></div>
+        <div class="item-meta">Yi J, Graziul C. <em>Review of Religious Research</em> 59, no. 2 (June 2017): 231–250.</div>
+        </div>
+
+        <h2 class="year-header">2018</h2>
+
+        <div class="item-card publication major">
         <div class="item-title"><a href="https://doi.org/10.1177/2399808318801958">Neighborhood Formation in St. Louis, 1930</a></div>
-        <div class="item-meta">John Logan, Christopher Graziul, and Nathan Frey. <em>Environment and Planning B: Urban Analytics and City Science</em> 45, no. 6 (2018): 1157–1174.</div>
+        <div class="item-meta">Logan J, Graziul C, Frey N. <em>Environment and Planning B: Urban Analytics and City Science</em> 45, no. 6 (2018): 1157–1174.</div>
         <div class="item-description">
-        <p><strong>Analysis:</strong> Exploited geocoded data from 100% transcription of the 1930 census to examine neighborhood formation. Found race/ethnicity was by far the strongest factor in residential sorting (homophily), with social class also important while nativity and family status were minor predictors. Demonstrated how computational historical geography reveals segregation patterns invisible in aggregate data.</p>
-        <p><strong>Impact:</strong> Documented historical roots of present-day urban inequality. Showed how segregation patterns from the 1930s persist and inform contemporary housing policy.</p>
+        <p>Exploited geocoded data from 100% transcription of the 1930 census to examine neighborhood formation. Found race/ethnicity was by far the strongest factor in residential sorting (homophily), with social class also important while nativity and family status were minor predictors.</p>
+        <p><strong>Impact:</strong> Documented historical roots of present-day urban inequality, showing how segregation patterns from the 1930s persist and inform contemporary housing policy.</p>
         </div>
         </div>
 
-        <div class="item-standard">
-        <div class="item-title">2018–2022: Data Scientist</div>
-        <div class="item-meta">University of Chicago | Department of Comparative Human Development</div>
+        <h2 class="year-header">2018–2022</h2>
+
+        <div class="item-card position">
+        <div class="item-title">Data Scientist</div>
+        <div class="item-meta">Department of Comparative Human Development, University of Chicago</div>
         <p><strong>Focus:</strong> Integrating PVEST theory with computational methods</p>
         <ul>
-          <li>Developed PVEST-informed research designs for <strong>NSF STEM-US Center</strong></li>
-          <li>Assessed arts-augmented STEM curricula effectiveness (7th–8th graders)</li>
+          <li>Developed PVEST-informed research designs for NSF STEM-US Center</li>
+          <li>Assessed arts-augmented STEM curricula effectiveness</li>
           <li>Evaluated assessment tools for HBCU STEM student success</li>
           <li>Led IRB protocols, experimental design, secondary data analysis</li>
-          <li>Contributed to multiple successfully funded grants</li>
         </ul>
-        <p><strong>Bridging Theory & Practice:</strong> Pioneered theory-driven data science in education research. Integrated Margaret Beale Spencer's phenomenological variant of ecological systems theory (PVEST) with computational analysis.</p>
         </div>
 
         </div>
@@ -146,8 +170,10 @@ sections:
       text: |
         <div class="timeline-section">
 
-        <div class="item-grant">
-        <div class="item-title">$2.7M NIH R01 Grant (2021–2025)</div>
+        <h2 class="year-header">2021–2025</h2>
+
+        <div class="item-card grant major">
+        <div class="item-title">$2.7M NIH R01 Grant</div>
         <div class="item-meta">Principal Investigator (with Margaret Beale Spencer) | National Institute on Minority Health and Health Disparities | R01MD015064</div>
         <p><strong>Title:</strong> "Primed to (re)act: Can changes in procedural language prevent adverse events between police and minority male youth?"</p>
         <p><strong>Research Goals:</strong></p>
@@ -157,23 +183,26 @@ sections:
           <li>Develop assessment tool and training program to reduce negative outcomes</li>
           <li>Apply PVEST theory to understand reactive coping strategies in stress</li>
         </ul>
-        <p><strong>Significance:</strong> First major federal funding to analyze police radio communication systematically. Positions procedural language as an intervention point for reducing adverse encounters.</p>
+        <p><strong>Significance:</strong> First major federal funding to analyze police radio communication systematically, positioning procedural language as an intervention point for reducing adverse encounters.</p>
         </div>
 
-        <div class="item-grant">
-        <div class="item-title">Argonne National Laboratory Computing Grant (2022–Present)</div>
+        <h2 class="year-header">2022–Present</h2>
+
+        <div class="item-card grant">
+        <div class="item-title">Argonne National Laboratory Computing Grant</div>
         <div class="item-meta">Principal Investigator | Argonne Leadership Computing Facility</div>
         <ul>
-          <li><strong>6,000 node-hours on Polaris supercomputer</strong></li>
-          <li><strong>2,000 node-hours on ThetaGPU</strong></li>
+          <li>6,000 node-hours on Polaris supercomputer</li>
+          <li>2,000 node-hours on ThetaGPU</li>
           <li>Optimization of audio processing pipeline for broadcast police communications</li>
         </ul>
-        <p>Leveraged supercomputing resources to process tens of thousands of hours of audio, enabling large-scale analysis of police radio communication.</p>
         </div>
 
-        <div class="item-standard">
-        <div class="item-title">2022–Present: Research Assistant Professor</div>
-        <div class="item-meta">University of Chicago | Department of Comparative Human Development</div>
+        <h2 class="year-header">2022–2025</h2>
+
+        <div class="item-card position">
+        <div class="item-title">Research Assistant Professor</div>
+        <div class="item-meta">Department of Comparative Human Development, University of Chicago</div>
         <ul>
           <li>Direct VAD, ASR, SER, and NLP development for police radio analysis</li>
           <li>Lead manuscript development across disciplines (ML, HCI, sociology, linguistics)</li>
@@ -181,57 +210,63 @@ sections:
         </ul>
         </div>
 
-        <div class="item-major">
+        <h2 class="year-header">2022</h2>
+
+        <div class="item-card publication">
+        <div class="item-title"><a href="#">Analyzing Voice Activity in Broadcast Police Communications</a></div>
+        <div class="item-meta">Kanabar A, Sailopal A, Graziul C. 8th International Conference on Computational Social Science (IC2S2), Chicago, IL, July 19–22, 2022.</div>
+        </div>
+
+        <div class="item-card publication">
+        <div class="item-title"><a href="#">Conversation Recognition in Mixed Stream Audio Data</a></div>
+        <div class="item-meta">Lai S, Chandler E, Graziul C. 8th International Conference on Computational Social Science (IC2S2), Chicago, IL, July 19–22, 2022.</div>
+        </div>
+
+        <div class="item-card publication">
+        <div class="item-title"><a href="#">Analyzing Dominance in Broadcast Police Communications</a></div>
+        <div class="item-meta">Gopan S, Graziul C, Shu S, Sailopal A. 8th International Conference on Computational Social Science (IC2S2), Chicago, IL, July 19–22, 2022.</div>
+        </div>
+
+        <h2 class="year-header">2023</h2>
+
+        <div class="item-card publication major">
         <div class="item-title"><a href="https://doi.org/10.1007/s10588-022-09362-3">Does Big Data Serve Policy? Not Without Context</a></div>
-        <div class="item-meta">Christopher Graziul, Andrey Belikov, Ishanu Chattopadyay, Zheng Chen, Hao Fang, Abhinav Girdhar, Judy Xiaoshuang, Peter M. Krafft, Max Kleiman-Weiner, Cindy Lewis, Chenhao Liang, James Muchovej, Alejandra Vientós, Meili Young, and James Evans. <em>Computational and Mathematical Organization Theory</em> (2023). https://doi.org/10.1007/s10588-022-09362-3</div>
+        <div class="item-meta">Graziul C, Belikov A, Chattopadyay I, Chen Z, Fang H, Girdhar A, Xiaoshuang J, Krafft PM, Kleiman-Weiner M, Lewis C, Liang C, Muchovej J, Vientós A, Young M, Evans J. <em>Computational and Mathematical Organization Theory</em> (2023). https://doi.org/10.1007/s10588-022-09362-3</div>
         <div class="item-description">
-        <p><strong>Analysis:</strong> Evaluated social science methodology through DARPA Ground Truth project's simulated worlds. Found that problem-solving without shared ontology (where world characteristics remain uncertain) poses strong limits to quantitative analysis even with common tasks. Demonstrated that contemporary computational social science requires theoretical context to avoid spurious policy recommendations.</p>
+        <p>Evaluated social science methodology through DARPA Ground Truth project's simulated worlds. Found that problem-solving without shared ontology (where world characteristics remain uncertain) poses strong limits to quantitative analysis even with common tasks.</p>
         <p><strong>Argument:</strong> Big data analysis without contextual understanding can lead to misleading policy conclusions. Theoretical frameworks are essential for interpreting computational findings.</p>
         </div>
         </div>
 
-        <div class="section-divider"></div>
+        <h2 class="year-header">2024</h2>
 
-        <h3 style="color: var(--major-publication); margin-top: 30px;">2024: Breakthrough Year</h3>
-
-        <div class="item-dataset">
+        <div class="item-card publication major">
         <div class="item-title"><a href="https://ieeexplore.ieee.org/document/10832157">Speech Recognition for Analysis of Police Radio Communication</a></div>
-        <div class="item-meta">Tara Srivastava, Jia-Cheng Chou, Payal Shroff, Karen Livescu, and Christopher Graziul. <em>IEEE Spoken Language Technology Workshop</em>, Macao, China, December 2–5, 2024. https://doi.org/10.48550/arXiv.2409.10858</div>
+        <div class="item-meta">Srivastava T, Chou J-C, Shroff P, Livescu K, Graziul C. <em>IEEE Spoken Language Technology Workshop</em>, Macao, China, December 2–5, 2024. https://doi.org/10.48550/arXiv.2409.10858</div>
         <div class="item-description">
         <p><strong>BPC-CPD Corpus:</strong> 62,080 utterances (46.2 hours) manually transcribed from Chicago Police Department (CPD) radio across 11 dispatch zones. Fine-tuned models reach human-level performance.</p>
-        <p><strong>Technical Achievement:</strong> First large-scale corpus of broadcast police communications with high-quality manual transcriptions. Enables speech recognition in challenging audio conditions with specialized vocabulary.</p>
+        <p><strong>Technical Achievement:</strong> First large-scale corpus of broadcast police communications with high-quality manual transcriptions, enabling speech recognition in challenging audio conditions with specialized vocabulary.</p>
         </div>
         </div>
 
-        <div class="item-major">
+        <div class="item-card publication major">
         <div class="item-title"><a href="https://dl.acm.org/doi/10.1145/3686921">Race and Privacy in Broadcast Police Communications</a></div>
-        <div class="item-meta">Pranav Narayanan Venkit, Christopher Graziul, Madeleine Anne Goodman, Skylar N. Kenny, and Shomir Wilson. <em>ACM Conference on Computer Supported Cooperative Work</em>, San José, Costa Rica, November 9–13, 2024. https://doi.org/10.1145/3686869</div>
-        <span class="item-badge">DEI Recognition</span>
+        <div class="item-meta">Venkit PN, Graziul C, Goodman MA, Kenny SN, Wilson S. <em>ACM Conference on Computer Supported Cooperative Work</em>, San José, Costa Rica, November 9–13, 2024. https://doi.org/10.1145/3686869</div>
+        <span class="item-badge dei">DEI Recognition</span>
         <div class="item-description">
-        <p><strong>Analysis:</strong> Analyzed 80,775 hours of CPD radio. Found disproportionate mentions of Black people, revealing unequal distribution of police attention across racial/ethnic groups.</p>
-        <p><strong>Significance:</strong> Quantitative evidence of racial disparities in police surveillance and attention. Demonstrates how computational analysis of radio communication can reveal systemic bias patterns.</p>
-        <p><strong>Recognition:</strong> Selected for DEI Recognition at CSCW 2024 for advancing understanding of equity issues in police-community interactions.</p>
+        <p>Analyzed 80,775 hours of CPD radio. Found disproportionate mentions of Black people, revealing unequal distribution of police attention across racial/ethnic groups.</p>
+        <p><strong>Significance:</strong> Quantitative evidence of racial disparities in police surveillance and attention, demonstrating how computational analysis of radio communication can reveal systemic bias patterns.</p>
         </div>
         </div>
 
-        <div class="item-standard">
-        <div class="item-title">IC2S2 2022: Three Presentations on Police Radio Analysis</div>
-        <div class="item-meta">8th International Conference on Computational Social Science, Chicago, IL, July 19–22, 2022</div>
+        <div class="item-card publication">
+        <div class="item-title"><a href="#">Reliability and Validity of Two-Way Radio Use as a Measure of Police Activity</a></div>
+        <div class="item-meta">Graziul C, Lai S. 10th International Conference on Computational Social Science (IC2S2), Philadelphia, PA, July 18–20, 2024.</div>
+        </div>
 
-        <ol class="presentations-list">
-          <li>
-            <span class="presentation-title">Analyzing voice activity in broadcast police communications.</span>
-            <span class="presentation-authors">Ayushi Kanabar, Anushka Sailopal, and Christopher Graziul.</span>
-          </li>
-          <li>
-            <span class="presentation-title">Conversation recognition in mixed stream audio data.</span>
-            <span class="presentation-authors">Sophie Lai, Emerson Chandler, and Christopher Graziul.</span>
-          </li>
-          <li>
-            <span class="presentation-title">Analyzing dominance in broadcast police communications.</span>
-            <span class="presentation-authors">Shruti Gopan, Christopher Graziul, Selina Shu, and Anushka Sailopal.</span>
-          </li>
-        </ol>
+        <div class="item-card publication">
+        <div class="item-title"><a href="#">The Praxis of Data Annotation and Ideational Search</a></div>
+        <div class="item-meta">Graziul C, Smith A, Cypher C, Hogue G, Loaiza K, Mercado L, Johnson S, Spencer MB. 3rd International Conference on the Science of Science and Innovation (ICSSI), Washington, DC, July 1–3, 2024.</div>
         </div>
 
         </div>
@@ -245,9 +280,17 @@ sections:
       text: |
         <div class="timeline-section">
 
-        <div class="item-major">
+        <h2 class="year-header">2025</h2>
+
+        <div class="item-card position">
+        <div class="item-title">Preceptor, Digital Studies</div>
+        <div class="item-meta">University of Chicago</div>
+        </div>
+
+        <div class="item-card publication major">
         <div class="item-title"><a href="https://arxiv.org/abs/2502.03689">Stop Treating "AGI" as the North-Star Goal of AI Research</a></div>
-        <div class="item-meta">Britt Blili-Hamelin*, Christopher Graziul*, Leif Hancox-Li, Hava Hazan, El-Mahdi El-Mhamdi, Aditi Ghosh, Katherine Heller, Jacob Metcalf, Felipe Murai, Eryk Salvaggio, Andrew Smart, Tessa Snider, Meriem Tighanimine, Talia Ringer, Margaret Mitchell, and Shiri Dori-Hacohen. <em>International Conference on Machine Learning</em>, Vancouver, Canada, July 13–19, 2025. https://doi.org/10.48550/arXiv.2502.03689 (*Equal Contribution)</div>
+        <div class="item-meta">Blili-Hamelin B*, Graziul C*, Hancox-Li L, Hazan H, El-Mhamdi E-M, Ghosh A, Heller K, Metcalf J, Murai F, Salvaggio E, Smart A, Snider T, Tighanimine M, Ringer T, Mitchell M, Dori-Hacohen S. <em>International Conference on Machine Learning</em>, Vancouver, Canada, July 13–19, 2025. https://doi.org/10.48550/arXiv.2502.03689</div>
+        <span class="item-badge equal-contribution">*Equal Contribution</span>
         <div class="item-description">
         <p><strong>Argument:</strong> Focusing on "artificial general intelligence" (AGI) undermines effective AI goal-setting. Identifies six key traps:</p>
         <ol>
@@ -262,26 +305,14 @@ sections:
         </div>
         </div>
 
-        <div class="item-standard">
+        <div class="item-card publication">
         <div class="item-title"><a href="#">The Case for a National Repository of Policing Data in the United States</a></div>
-        <div class="item-meta">Collette Danton, Christopher Graziul, and Elena Ramos. 20th International Conference on Open Repositories, Chicago, IL, June 15–18, 2025.</div>
+        <div class="item-meta">Danton C, Graziul C, Ramos E. 20th International Conference on Open Repositories, Chicago, IL, June 15–18, 2025.</div>
         <p>Proposes infrastructure for democratized access to policing data in the United States. Argues for centralized repository that balances transparency with privacy.</p>
         </div>
 
-        <div class="item-standard">
-        <div class="item-title">IC2S2 2024: Radio Communication as Measure of Police Activity</div>
-        <div class="item-meta">10th International Conference on Computational Social Science, Philadelphia, PA, July 18–20, 2024</div>
-        <p><span class="presentation-title">Reliability and Validity of Two-Way Radio Use as a Measure of Police Activity.</span> <span class="presentation-authors">Christopher Graziul and Sophie Lai.</span></p>
-        </div>
-
-        <div class="item-standard">
-        <div class="item-title">ICSSI 2024: Data Annotation Practices</div>
-        <div class="item-meta">3rd International Conference on the Science of Science and Innovation, Washington, DC, July 1–3, 2024</div>
-        <p><span class="presentation-title">The Praxis of Data Annotation and Ideational Search.</span> <span class="presentation-authors">Christopher Graziul, Abigail Smith, Caroline Cypher, Gabriella Hogue, Kimberly Loaiza, Lizette Mercado, Shanita Johnson, and Margaret Beale Spencer.</span></p>
-        </div>
-
-        <div class="item-grant">
-        <div class="item-title">Ongoing: Participatory Data Governance Research</div>
+        <div class="item-card grant">
+        <div class="item-title">Participatory Data Governance Research</div>
         <p>Developing decentralized autonomous data stewardship models where communities control their data. Creating alternatives to corporate/government data monopolies that rebalance power between data subjects and data users.</p>
         </div>
 
@@ -327,8 +358,7 @@ sections:
         <p><a href="/uploads/Graziul%20CV%202025_05_12.pdf">Download PDF →</a></p>
         <p style="margin-top: 20px;"><strong>Contact Information:</strong></p>
         <p><strong>Email:</strong> graziul@uchicago.edu<br>
-        <strong>Office:</strong> Department of Comparative Human Development<br>
-        University of Chicago<br>
+        <strong>Office:</strong> Department of Comparative Human Development, University of Chicago<br>
         <strong>Phone:</strong> (773) 702-9387</p>
         </div>
 
