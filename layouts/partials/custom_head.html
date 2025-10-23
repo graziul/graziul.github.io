@@ -1,0 +1,12 @@
+<!-- Custom CSS for audience-aware design -->
+{{ $custom_css := resources.Get "scss/custom.scss" }}
+{{ if $custom_css }}
+  {{ $custom_css = $custom_css | resources.ToCSS }}
+  {{ if hugo.IsProduction }}
+    {{ $custom_css = $custom_css | minify | fingerprint }}
+  {{ end }}
+  <link rel="stylesheet" href="{{ $custom_css.RelPermalink }}">
+{{ end }}
+
+<!-- Preload custom JavaScript -->
+<link rel="preload" href="{{ "js/audience-toggle.js" | relURL }}" as="script">
