@@ -1,8 +1,0 @@
-<!-- Custom JavaScript for audience toggle functionality -->
-{{ $audience_js := resources.Get "js/audience-toggle.js" }}
-{{ if $audience_js }}
-  {{ if hugo.IsProduction }}
-    {{ $audience_js = $audience_js | minify | fingerprint }}
-  {{ end }}
-  <script src="{{ $audience_js.RelPermalink }}"></script>
-{{ end }}
