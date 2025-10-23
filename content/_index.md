@@ -265,7 +265,7 @@ sections:
         </div>
 
   # Resources
-  - block: collection
+  - block: markdown
     id: resources
     content:
       title: Resources & Collaboration
