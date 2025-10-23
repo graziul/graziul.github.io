@@ -1,16 +1,39 @@
 /* ========================================
-   Simplified Custom Styles for Chris Graziul
-   Clean, maintainable, works with Wowchemy defaults
+   Custom Styles for Christopher Graziul
+   Visual hierarchy for academic content
    ======================================== */
 
-/* CSS Variables - Color System */
+/* CSS Variables */
 :root {
   --gradient-start: #667eea;
   --gradient-end: #764ba2;
   --accent-color: #6366f1;
+
+  /* Content type colors */
+  --major-publication: #6366f1;
+  --grant-color: #10b981;
+  --conference-color: #f59e0b;
+  --dataset-color: #8b5cf6;
+
+  /* Period colors for visual separation */
+  --period-1: #e0e7ff; /* Light indigo */
+  --period-2: #fce7f3; /* Light pink */
+  --period-3: #fef3c7; /* Light amber */
+  --period-4: #dbeafe; /* Light blue */
 }
 
-/* Hero Highlights Grid */
+/* Dark mode adjustments */
+.dark {
+  --period-1: rgba(99, 102, 241, 0.1);
+  --period-2: rgba(236, 72, 153, 0.1);
+  --period-3: rgba(245, 158, 11, 0.1);
+  --period-4: rgba(59, 130, 246, 0.1);
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+
 .hero-highlights {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -57,27 +80,366 @@
   color: #aaa;
 }
 
-/* Timeline Sections */
-.timeline-section {
-  max-width: 900px;
-  margin: 0 auto;
+/* ========================================
+   PERIOD SECTIONS - Visual Differentiation
+   ======================================== */
+
+/* Add subtle background colors to differentiate periods */
+section[id="foundation"] {
+  background: var(--period-1);
+  border-left: 4px solid var(--major-publication);
 }
 
-.timeline-section h3 {
-  color: var(--accent-color);
-  margin-top: 30px;
-  margin-bottom: 10px;
+section[id="computational"] {
+  background: var(--period-2);
+  border-left: 4px solid var(--conference-color);
 }
 
-.timeline-section hr {
-  margin: 40px 0;
-  border: none;
-  border-top: 2px solid rgba(102, 126, 234, 0.1);
+section[id="policing"] {
+  background: var(--period-3);
+  border-left: 4px solid var(--grant-color);
 }
 
-/* Section Spacing */
+section[id="current"] {
+  background: var(--period-4);
+  border-left: 4px solid var(--dataset-color);
+}
+
+/* Ensure sections have padding */
 section[id] {
-  padding: 60px 0;
+  padding: 60px 40px;
+  margin-bottom: 0;
+}
+
+/* ========================================
+   CONTENT TYPE HIERARCHY
+   ======================================== */
+
+/* Major Publications - Highest visual prominence */
+.item-major {
+  background: white;
+  border-left: 5px solid var(--major-publication);
+  padding: 30px;
+  margin: 30px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.dark .item-major {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.item-major .item-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--major-publication);
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.item-major .item-title a {
+  color: var(--major-publication);
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.item-major .item-title a:hover {
+  opacity: 0.7;
+  text-decoration: underline;
+}
+
+.item-major .item-meta {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.dark .item-major .item-meta {
+  color: #999;
+}
+
+.item-major .item-description {
+  font-size: 15px;
+  line-height: 1.7;
+  margin-top: 15px;
+}
+
+.item-major .item-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--major-publication);
+  color: white;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+/* Grant/Significant Work - High prominence */
+.item-grant {
+  background: white;
+  border-left: 5px solid var(--grant-color);
+  padding: 25px;
+  margin: 25px 0;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.dark .item-grant {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item-grant .item-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--grant-color);
+  margin-bottom: 8px;
+}
+
+.item-grant .item-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.dark .item-grant .item-meta {
+  color: #999;
+}
+
+/* Dataset/Resource - Medium prominence */
+.item-dataset {
+  background: white;
+  border-left: 4px solid var(--dataset-color);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+}
+
+.dark .item-dataset {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.item-dataset .item-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--dataset-color);
+  margin-bottom: 8px;
+}
+
+.item-dataset .item-title a {
+  color: var(--dataset-color);
+  text-decoration: none;
+}
+
+.item-dataset .item-title a:hover {
+  text-decoration: underline;
+}
+
+/* Standard Item - Lower prominence for degrees, positions, presentations */
+.item-standard {
+  padding: 15px 0;
+  margin: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.dark .item-standard {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.item-standard .item-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.item-standard .item-meta {
+  font-size: 14px;
+  color: #666;
+}
+
+.dark .item-standard .item-meta {
+  color: #999;
+}
+
+/* Presentation List - Compact format */
+.presentations-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.presentations-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.dark .presentations-list li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.presentations-list li:last-child {
+  border-bottom: none;
+}
+
+.presentations-list .presentation-title {
+  font-weight: 600;
+  color: var(--conference-color);
+}
+
+.presentations-list .presentation-authors {
+  color: #333;
+}
+
+.dark .presentations-list .presentation-authors {
+  color: #ccc;
+}
+
+.presentations-list .presentation-venue {
+  font-style: italic;
+  color: #666;
+  font-size: 13px;
+}
+
+.dark .presentations-list .presentation-venue {
+  color: #999;
+}
+
+/* ========================================
+   IMAGE SUPPORT
+   ======================================== */
+
+.item-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.item-image-caption {
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.dark .item-image-caption {
+  color: #999;
+}
+
+/* Image container with optional side-by-side layout */
+.item-with-image {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.item-with-image .item-content {
+  flex: 1;
+}
+
+.item-with-image .item-image-container {
+  flex: 0 0 250px;
+}
+
+@media (max-width: 768px) {
+  .item-with-image {
+    flex-direction: column;
+  }
+
+  .item-with-image .item-image-container {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+}
+
+/* ========================================
+   RESOURCES SECTION - Distinct Layout
+   ======================================== */
+
+section[id="resources"] {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.03) 0%, rgba(118, 75, 162, 0.03) 100%);
+  border-left: none;
+  border-top: 3px solid var(--accent-color);
+}
+
+.resources-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.resource-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dark .resource-card {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.resource-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.15);
+}
+
+.resource-card h3 {
+  color: var(--accent-color);
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.resource-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resource-card li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.dark .resource-card li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.resource-card li:last-child {
+  border-bottom: none;
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+
+.section-divider {
+  margin: 50px 0;
+  border: none;
+  border-top: 2px solid rgba(102, 126, 234, 0.15);
+}
+
+.text-muted {
+  color: #666;
+  font-size: 14px;
+}
+
+.dark .text-muted {
+  color: #999;
 }
 
 /* Links */
@@ -90,8 +452,21 @@ a:hover {
   color: var(--gradient-start);
 }
 
-/* Responsive */
+/* Timeline container */
+.timeline-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
 @media (max-width: 768px) {
+  section[id] {
+    padding: 40px 20px;
+  }
+
   .hero-highlights {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -103,6 +478,18 @@ a:hover {
 
   .highlight-item {
     padding: 20px 10px;
+  }
+
+  .item-major {
+    padding: 20px;
+  }
+
+  .item-major .item-title {
+    font-size: 18px;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
   }
 }
 
