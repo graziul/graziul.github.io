@@ -1,7 +1,6 @@
 /* ========================================
    Modern Full-Screen Design for Chris Graziul
-   "Ahead of my time, every time"
-   Scroll-snap, vibrant colors, rich content
+   Scroll-snap layout, phase-based colors, rich content
    ======================================== */
 
 /* CSS Variables - Color System */
@@ -58,6 +57,11 @@ body {
 }
 
 /* Fullscreen Container - Scroll Snap */
+/* Apply to Wowchemy's main page body */
+body {
+  scroll-snap-type: y mandatory;
+}
+
 .fullscreen-container {
   width: 100%;
   height: 100vh;
@@ -66,7 +70,8 @@ body {
   scroll-behavior: smooth;
 }
 
-/* Fullscreen Sections */
+/* Fullscreen Sections - Apply to all main page sections */
+main > section,
 .fullscreen-section {
   min-height: 100vh;
   scroll-snap-align: start;
@@ -846,6 +851,11 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    scroll-snap-type: none;
+  }
+
+  main > section,
   .fullscreen-section {
     padding: 60px 20px;
     scroll-snap-align: none;
@@ -922,11 +932,16 @@ body {
 
 /* Print Styles */
 @media print {
+  body {
+    scroll-snap-type: none;
+  }
+
   .fullscreen-container {
     overflow: visible;
     height: auto;
   }
 
+  main > section,
   .fullscreen-section {
     min-height: auto;
     page-break-inside: avoid;
