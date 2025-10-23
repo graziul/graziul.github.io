@@ -1,493 +1,432 @@
 ---
-# Leave the homepage title empty to use the site title
 title:
 date: 2023-09-06
 type: landing
 
 sections:
-  # Biography Section
-  - block: about.biography
-    id: about
-    content:
-      title: Biography
-      username: admin
-
-  # Audience-Specific Introduction
+  # Single full-page container
   - block: markdown
+    id: fullscreen-site
     content:
       title: ""
       text: |
-        <div class="audience-content active" data-audience="academic" aria-hidden="false" id="academic-content">
-          <div class="research-focus">
-            <h3>Research at the Intersection of AI and Society</h3>
-            <p>My work pioneers the application of advanced machine learning techniques—including voice activity detection (VAD), automatic speech recognition (ASR), speech emotion recognition (SER), and natural language processing (NLP)—to analyze police radio communications. This novel approach addresses a critical gap in policing research by examining the coordination and decision-making processes that occur <em>before</em> encounters with the public.</p>
-            <p>Theoretically grounded in Spencer's phenomenological variant of ecological systems theory (PVEST), my research bridges computational social science and urban sociology to understand policing as a complex sociotechnical system.</p>
-          </div>
+        <div class="fullscreen-container">
 
-          <h3>Current Research Trajectory</h3>
-          <div class="key-insights">
-            <div class="insight-card">
-              <h4>🎯 Novel Data Sources in Policing Research</h4>
-              <p>First systematic analysis of police radio transmissions using state-of-the-art ML/AI methods. This understudied data source reveals coordination patterns invisible in traditional administrative data or body camera footage.</p>
-            </div>
-            <div class="insight-card">
-              <h4>🔬 Methodological Innovation</h4>
-              <p>Development of mixed-methods approaches that combine computational analysis with ethnographic understanding, advancing translational AI that bridges technical capabilities with social science theory.</p>
-            </div>
-            <div class="insight-card">
-              <h4>⚖️ Data Ethics & Governance</h4>
-              <p>Pioneering work on participatory data governance frameworks, proposing decentralized autonomous data stewardship models that rebalance power between data subjects and data users.</p>
-            </div>
-          </div>
-        </div>
+          <!-- Section 1: Hero & Introduction -->
+          <section class="fullscreen-section hero-section" id="hero">
+            <div class="section-content">
+              <div class="hero-badge">Ahead of My Time, Every Time</div>
+              <h1 class="hero-title">Christopher M. Graziul, PhD</h1>
+              <p class="hero-subtitle">Computational Social Scientist | AI Ethics Researcher | Data Governance Innovator</p>
 
-        <div class="audience-content" data-audience="policymaker" aria-hidden="true" id="policymaker-content">
-          <div class="research-focus">
-            <h3>Evidence-Based Insights for Police Reform</h3>
-            <p>My research provides policymakers with unprecedented access to understanding police behavior through analysis of radio communications—the primary coordination tool for officers. This work offers objective, data-driven insights into how officers make decisions, coordinate responses, and interact with communities.</p>
-            <p>By analyzing patterns in hundreds of hours of radio transmissions using artificial intelligence, I identify systemic issues and opportunities for intervention that traditional metrics miss.</p>
-          </div>
+              <div class="hero-highlights">
+                <div class="highlight-item">
+                  <div class="highlight-number">$2.7M</div>
+                  <div class="highlight-label">NIH R01 Grant</div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-number">80K+</div>
+                  <div class="highlight-label">Hours Police Radio Analyzed</div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-number">30M+</div>
+                  <div class="highlight-label">Historic Census Records Geocoded</div>
+                </div>
+                <div class="highlight-item">
+                  <div class="highlight-number">15-20</div>
+                  <div class="highlight-label">Graduate RAs Mentored</div>
+                </div>
+              </div>
 
-          <h3>Policy-Relevant Findings</h3>
-          <div class="key-insights">
-            <div class="insight-card">
-              <h4>📊 New Metrics for Police Accountability</h4>
-              <p>Radio communications data reveals officer coordination patterns, response decision-making, and resource allocation in real-time—providing accountability metrics beyond traditional complaint data or use-of-force statistics.</p>
-            </div>
-            <div class="insight-card">
-              <h4>🛡️ Early Intervention Opportunities</h4>
-              <p>Analysis of communication patterns can identify officers or units that may benefit from additional training or support, enabling proactive intervention before escalation.</p>
-            </div>
-            <div class="insight-card">
-              <h4>🤝 Community-Centered Data Governance</h4>
-              <p>Proposed frameworks for decentralized data stewardship that give communities meaningful control over how their data is collected, used, and shared—addressing power imbalances in current surveillance systems.</p>
-            </div>
-            <div class="insight-card">
-              <h4>💡 Evidence-Based Resource Allocation</h4>
-              <p>Objective analysis of dispatch patterns and response coordination helps optimize resource deployment and identify gaps in service delivery.</p>
-            </div>
-          </div>
+              <div class="bio-snapshot">
+                <p><strong>Research Assistant Professor</strong>, Department of Comparative Human Development, University of Chicago</p>
+                <p>Pioneering AI/ML analysis of police radio communications to understand officer behavior and coordination. Developing participatory data governance frameworks that center community rights and values.</p>
+              </div>
 
-          <div style="margin-top: 40px; padding: 25px; background: rgba(102, 126, 234, 0.05); border-radius: 12px; border-left: 4px solid #667eea;">
-            <h4 style="margin-top: 0; color: #667eea;">Available for Consultation</h4>
-            <p>I work with policymakers, community organizations, and law enforcement agencies to translate research findings into actionable policy recommendations. My approach emphasizes participatory methods that center community needs and values.</p>
-          </div>
-        </div>
-
-        <div class="audience-content" data-audience="public" aria-hidden="true" id="public-content">
-          <div class="research-focus">
-            <h3>Using AI to Understand Policing in Your Community</h3>
-            <p>When you hear police sirens or see officers responding to a call, there's an entire conversation happening over radio that guides their actions. My research uses artificial intelligence to listen to and understand these conversations, revealing how police make decisions and coordinate before they interact with community members.</p>
-            <p>This work matters because it helps answer questions communities have been asking: How do police decide where to go? How do they talk about neighborhoods? What influences their decisions before they arrive at a scene?</p>
-          </div>
-
-          <h3>What This Means for Communities</h3>
-          <div class="key-insights">
-            <div class="insight-card">
-              <h4>🔍 Transparency Through Technology</h4>
-              <p>By analyzing police radio communications (which are publicly available in many cities), this research reveals patterns in policing that aren't visible in official reports. It's like having a window into how police actually work day-to-day.</p>
-            </div>
-            <div class="insight-card">
-              <h4>👥 Your Data, Your Rights</h4>
-              <p>My work on data governance asks: Who should control data about our communities? I'm developing models where communities—not corporations or government alone—have real power over how their data is used.</p>
-            </div>
-            <div class="insight-card">
-              <h4>⚡ Ahead of the Curve</h4>
-              <p>This research anticipated many current conversations about AI ethics, police accountability, and data rights. By studying these issues early, we can shape how these technologies develop rather than just reacting to problems after they arise.</p>
-            </div>
-            <div class="insight-card">
-              <h4>🌍 Real-World Impact</h4>
-              <p>The goal isn't just academic papers—it's creating tools and frameworks that help communities hold police accountable and participate meaningfully in decisions about surveillance and safety.</p>
-            </div>
-          </div>
-
-          <div style="margin-top: 40px; padding: 25px; background: rgba(102, 126, 234, 0.05); border-radius: 12px; border-left: 4px solid #667eea;">
-            <h4 style="margin-top: 0; color: #667eea;">Community Engagement</h4>
-            <p>I believe research should serve communities, not just academic journals. If you're interested in understanding policing in your area or want to discuss participatory research approaches, I'd love to hear from you.</p>
-            <p><a href="mailto:graziul@uchicago.edu" class="cta-button">Get in Touch</a></p>
-          </div>
-        </div>
-
-  # Innovation Timeline - "Ahead of My Time, Every Time"
-  - block: markdown
-    content:
-      title: "Career Timeline: Building the Future"
-      text: |
-        <div class="innovation-timeline">
-          <div class="timeline-item">
-            <div class="timeline-year">2004</div>
-            <div class="timeline-title">Dual Bachelor's Degrees with Honors</div>
-            <div class="timeline-description">B.S. in Physics and B.S. in Applied Computational Mathematics, both with honors from Virginia Tech. Early foundation in computational methods and quantitative reasoning.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2005-2009</div>
-            <div class="timeline-title">Graduate Training in Social Sciences</div>
-            <div class="timeline-description">M.A. in Social Science (2005) and M.A. in Sociology (2009) from University of Chicago. Began bridging computational methods with social theory.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2008</div>
-            <div class="timeline-title">Published in <em>Science</em></div>
-            <div class="timeline-description">Book review with Terry Nichols Clark in <em>Science</em> on political geography and voting behavior—early work connecting place, politics, and social patterns.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2012</div>
-            <div class="timeline-title">Healthcare Data Science <span class="ahead-badge">Early Adopter</span></div>
-            <div class="timeline-description">Published two data-driven papers on pharmaceutical markets and healthcare utilization in leading medical journals—applying computational methods to health policy before "big data" became mainstream.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2016</div>
-            <div class="timeline-title">PhD in Sociology: Venues & Social Context</div>
-            <div class="timeline-description">Dissertation "Venues: Locating Social Context" advanced spatial thinking in sociology. Committee: Terry N. Clark, James Evans, Omar McRoberts. Developed theoretical frameworks for understanding how physical places shape social behavior.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2016-2018</div>
-            <div class="timeline-title">Computational Historical Geography <span class="ahead-badge">Methodological Innovation</span></div>
-            <div class="timeline-description">Postdoc at Brown University's Spatial Structures in the Social Sciences. Geocoded 30M+ records from historic censuses (1900-1940) across 69 cities, developed novel segregation measures for point-level data, and pioneered scalable ETL workflows for historical demographic analysis.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2018</div>
-            <div class="timeline-title">Major Publication on Urban Segregation</div>
-            <div class="timeline-description">Published "Neighborhood formation in St. Louis, 1930" in <em>Environment and Planning B</em> with John Logan—demonstrating how computational methods reveal patterns in historical segregation invisible to traditional approaches.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2018-2022</div>
-            <div class="timeline-title">PVEST-Informed Data Science</div>
-            <div class="timeline-description">Data Scientist at UChicago integrating Margaret Beale Spencer's PVEST theory with computational methods for NSF STEM-US Center. Pioneered theory-driven data science in education research, assessed arts-augmented STEM curricula, and evaluated HBCU STEM student needs.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2021</div>
-            <div class="timeline-title">$2.7M NIH Grant on Police Language <span class="ahead-badge">Major Funding</span></div>
-            <div class="timeline-description">Principal Investigator (with Margaret Beale Spencer) for R01MD015064: "Primed to (re)act: Can changes in procedural language prevent adverse events between police and minority male youth?" First NIH-funded project analyzing police radio communications and procedural language.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2022</div>
-            <div class="timeline-title">Research Assistant Professor & Argonne Computing</div>
-            <div class="timeline-description">Promoted to faculty. Principal Investigator for Argonne National Lab Leadership Computing Facility grant (6,000+ node-hours) to optimize audio processing pipeline for police communications. Leading 15-20 graduate RAs in cutting-edge ASR/NLP research.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2023</div>
-            <div class="timeline-title">Big Data & Policy Critique <span class="ahead-badge">Critical Intervention</span></div>
-            <div class="timeline-description">Lead author on "Does Big Data Serve Policy? Not Without Context" in <em>Computational and Mathematical Organization Theory</em>—demonstrating limits of decontextualized data science and advocating for theory-informed computational approaches.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2024</div>
-            <div class="timeline-title">Breakthrough Year: 3 Major Publications</div>
-            <div class="timeline-description">
-              <strong>IEEE SLT:</strong> First successful ASR system for police radio (46 hours transcribed corpus).<br>
-              <strong>CSCW (DEI Recognition):</strong> "Race and Privacy in Broadcast Police Communications" analyzing 80,775 hours of Chicago PD radio.<br>
-              <strong>Multiple IC2S2 presentations:</strong> Voice activity, conversation recognition, and dominance analysis in police comms.
-            </div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2025</div>
-            <div class="timeline-title">Challenging AI's North Star: ICML Position Paper <span class="ahead-badge">Critical Leadership</span></div>
-            <div class="timeline-description">Equal contribution author on ICML position paper "Stop treating 'AGI' as the north-star goal of AI research"—identifying six traps of AGI discourse and advocating for specific, pluralistic, and inclusive approaches to AI goals.</div>
-          </div>
-
-          <div class="timeline-item">
-            <div class="timeline-year">2025</div>
-            <div class="timeline-title">National Policing Data Repository Proposal</div>
-            <div class="timeline-description">Presenting "The Case for a National Repository of Policing Data in the United States" at 20th International Conference on Open Repositories—proposing infrastructure for democratized access to policing data.</div>
-          </div>
-        </div>
-
-  # Recent Work & Impact
-  - block: markdown
-    id: recent-work
-    content:
-      title: "Selected Publications"
-      text: |
-        <div class="publication-grid">
-          <!-- ICML 2025 -->
-          <article class="pub-card pub-spotlight">
-            <div class="pub-header">
-              <span class="pub-venue">ICML 2025</span>
-              <span class="pub-type">Position Paper</span>
-            </div>
-            <h3 class="pub-title">Stop treating 'AGI' as the north-star goal of AI research</h3>
-            <p class="pub-authors">Blili-Hamelin B*, <strong>Graziul C*</strong>, Hancox-Li L, Hazan H, El-Mhamdi E-M, et al. (*Equal Contribution)</p>
-            <p class="pub-abstract">Critiques the focus on "artificial general intelligence" as undermining effective AI goal-setting. Identifies six key traps—Illusion of Consensus, Supercharging Bad Science, Presuming Value-Neutrality, Goal Lottery, Generality Debt, Normalized Exclusion—and advocates for specificity, pluralism, and inclusion in AI research.</p>
-
-            <div class="audience-content active" data-audience="academic">
-              <div class="pub-relevance">
-                <strong>Academic Impact:</strong> Critical intervention in AI research priorities. Connects AI governance, science studies, and ethics to question fundamental assumptions about "general" intelligence as a research target.
+              <div class="scroll-indicator">
+                <span>Scroll to explore</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 5v14M19 12l-7 7-7-7"/>
+                </svg>
               </div>
             </div>
-            <div class="audience-content" data-audience="policymaker">
-              <div class="pub-relevance">
-                <strong>Policy Implications:</strong> Provides framework for evaluating AI research proposals and funding priorities. Argues against monolithic "AGI" narratives in favor of diverse, specific, socially-grounded AI applications.
+          </section>
+
+          <!-- Section 2: Foundation Phase (2004-2016) -->
+          <section class="fullscreen-section phase-section" id="foundation" data-phase="1">
+            <div class="phase-marker">Phase 1: 2004-2016</div>
+            <div class="section-content">
+              <h2 class="section-title">Building the Foundation</h2>
+              <p class="section-subtitle">Dual expertise in computational methods and social theory</p>
+
+              <div class="timeline-cards">
+                <div class="timeline-card featured">
+                  <div class="card-year">2004</div>
+                  <h3>Dual BS Degrees with Honors</h3>
+                  <div class="card-institution">Virginia Tech</div>
+                  <ul class="card-details">
+                    <li><strong>BS in Physics (Honors)</strong> – Quantitative reasoning, experimental methods</li>
+                    <li><strong>BS in Applied Computational Mathematics (Honors)</strong> – Algorithms, numerical analysis</li>
+                    <li>Early foundation combining hard sciences with computational thinking</li>
+                  </ul>
+                  <div class="card-insight">
+                    <strong>Why It Mattered:</strong> This rare combination positioned me to bridge computational methods with social science—a convergence that would define my career before "computational social science" became a recognized field.
+                  </div>
+                </div>
+
+                <div class="timeline-card">
+                  <div class="card-year">2005-2009</div>
+                  <h3>Graduate Training in Social Sciences</h3>
+                  <div class="card-institution">University of Chicago</div>
+                  <ul class="card-details">
+                    <li><strong>MA in Social Science (2005)</strong></li>
+                    <li><strong>MA in Sociology (2009)</strong></li>
+                    <li>Began integrating computational approaches with sociological theory</li>
+                  </ul>
+                </div>
+
+                <div class="timeline-card highlight">
+                  <div class="card-year">2008</div>
+                  <h3>Published in <em>Science</em></h3>
+                  <div class="card-institution">Book Review with Terry Nichols Clark</div>
+                  <p class="card-abstract">"Why Rich States Aren't Republican" – Book review examining political geography and voting behavior, connecting place, politics, and social patterns.</p>
+                  <a href="https://www.science.org/doi/10.1126/science.1165796" target="_blank" class="card-link">Read in Science →</a>
+                  <div class="card-impact">
+                    <strong>Impact:</strong> Early work connecting spatial analysis with political behavior—foreshadowing later research on how place shapes social life.
+                  </div>
+                </div>
+
+                <div class="timeline-card highlight">
+                  <div class="card-year">2012</div>
+                  <h3>Healthcare Data Science (Before "Big Data")</h3>
+                  <div class="card-institution">Medical Care & BMC Health Services Research</div>
+                  <p class="card-abstract"><strong>Two papers applying computational methods to health policy:</strong></p>
+                  <ul class="card-details">
+                    <li>"Association Between the Commercial Characteristics of Psychotropic Drugs and Their Off-label Use" – Analyzed pharmaceutical market dynamics</li>
+                    <li>"Association Between Unemployment Rates and Prescription Drug Utilization" – Examined economic impacts on healthcare</li>
+                  </ul>
+                  <div class="card-insight">
+                    <strong>Ahead of the Curve:</strong> Applied data-driven methods to health policy years before "big data" became mainstream in medicine. Demonstrated early commitment to translating computational analysis into policy-relevant insights.
+                  </div>
+                </div>
+
+                <div class="timeline-card featured">
+                  <div class="card-year">2016</div>
+                  <h3>PhD in Sociology: Venues & Social Context</h3>
+                  <div class="card-institution">University of Chicago</div>
+                  <p><strong>Dissertation:</strong> "Venues: Locating Social Context"</p>
+                  <p><strong>Committee:</strong> Terry N. Clark (Chair), James Evans, Omar McRoberts</p>
+                  <p class="card-abstract"><strong>Abstract:</strong> Introduced "venues" as a new analytic concept to study how physical spaces with ostensible purposes and material culture shape social behavior. Bridged qualitative researchers studying individual spaces and quantitative researchers developing grand spatial models. Argued that venues extend and unify research across spatial scales, advancing sociological understanding of space and place.</p>
+                  <a href="https://knowledge.uchicago.edu/record/134" target="_blank" class="card-link">Read Dissertation →</a>
+                  <div class="card-impact">
+                    <strong>Theoretical Contribution:</strong> Developed frameworks for understanding how physical places constrain and enable social action—theoretical groundwork for later empirical work on policing as a spatially-organized system.
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="audience-content" data-audience="public">
-              <div class="pub-relevance">
-                <strong>Why It Matters:</strong> Challenges hype around "artificial general intelligence" and asks whose values and goals shape AI development. Advocates for multiple kinds of AI that serve different communities rather than one "superintelligence."
+          </section>
+
+          <!-- Section 3: Computational Methods Phase (2016-2022) -->
+          <section class="fullscreen-section phase-section" id="computational" data-phase="2">
+            <div class="phase-marker">Phase 2: 2016-2022</div>
+            <div class="section-content">
+              <h2 class="section-title">Pioneering Computational Methods</h2>
+              <p class="section-subtitle">Scaling historical analysis and theory-driven data science</p>
+
+              <div class="timeline-cards">
+                <div class="timeline-card featured">
+                  <div class="card-year">2016-2018</div>
+                  <h3>Postdoctoral Research Associate</h3>
+                  <div class="card-institution">Brown University | Spatial Structures in the Social Sciences</div>
+                  <p><strong>Project:</strong> Geocoding full-count census data (1900-1940) for 69 cities</p>
+                  <ul class="card-details">
+                    <li><strong>30M+ records processed</strong> using Python, R, Stata, Matlab</li>
+                    <li>Developed novel segregation measures for point-level data</li>
+                    <li>Built scalable ETL workflows for historical demographic analysis</li>
+                    <li>Analyzed residential patterns for 10+ racial/ethnic groups</li>
+                  </ul>
+                  <div class="card-insight">
+                    <strong>Methodological Innovation:</strong> Created computational infrastructure to analyze historical segregation at unprecedented scale and granularity. Transformed qualitative historical questions into quantifiable patterns.
+                  </div>
+                </div>
+
+                <div class="timeline-card highlight">
+                  <div class="card-year">2018</div>
+                  <h3>Neighborhood Formation in St. Louis, 1930</h3>
+                  <div class="card-institution">Environment and Planning B: Urban Analytics and City Science</div>
+                  <p><strong>Authors:</strong> John Logan, Chris Graziul, Nathan Frey</p>
+                  <p class="card-abstract"><strong>Abstract:</strong> Exploited geocoded data from 100% transcription of the 1930 census to examine neighborhood formation. Found race/ethnicity was by far the strongest factor in residential sorting (homophily), with social class also important while nativity and family status were minor predictors. Demonstrated how computational historical geography reveals segregation patterns invisible in aggregate data.</p>
+                  <a href="https://doi.org/10.1177/2399808318801958" target="_blank" class="card-link">Read Paper →</a>
+                  <div class="card-impact">
+                    <strong>Impact:</strong> Documented historical roots of present-day urban inequality. Showed how segregation patterns from the 1930s persist and inform contemporary housing policy. Methodology enabled new questions about neighborhood formation impossible with traditional approaches.
+                  </div>
+                </div>
+
+                <div class="timeline-card featured">
+                  <div class="card-year">2018-2022</div>
+                  <h3>Data Scientist</h3>
+                  <div class="card-institution">University of Chicago | Department of Comparative Human Development</div>
+                  <p><strong>Focus:</strong> Integrating PVEST theory with computational methods</p>
+                  <ul class="card-details">
+                    <li>Developed PVEST-informed research designs for <strong>NSF STEM-US Center</strong></li>
+                    <li>Assessed arts-augmented STEM curricula effectiveness (7th-8th graders)</li>
+                    <li>Evaluated assessment tools for HBCU STEM student success</li>
+                    <li>Led IRB protocols, experimental design, secondary data analysis</li>
+                    <li>Contributed to multiple successfully funded grants</li>
+                  </ul>
+                  <div class="card-insight">
+                    <strong>Bridging Theory & Practice:</strong> Pioneered theory-driven data science in education research. Integrated Margaret Beale Spencer's phenomenological variant of ecological systems theory (PVEST) with computational analysis—demonstrating how rigorous theory enhances data science.
+                  </div>
+                </div>
               </div>
             </div>
+          </section>
 
-            <div class="pub-links">
-              <a href="https://arxiv.org/abs/2502.03689" target="_blank" class="pub-link">arXiv</a>
-              <a href="https://openreview.net/forum?id=1RlrtH6ydW" target="_blank" class="pub-link">OpenReview</a>
-            </div>
-          </article>
+          <!-- Section 4: AI & Policing Phase (2021-Present) -->
+          <section class="fullscreen-section phase-section" id="policing" data-phase="3">
+            <div class="phase-marker">Phase 3: 2021-Present</div>
+            <div class="section-content">
+              <h2 class="section-title">Transforming Policing Research with AI</h2>
+              <p class="section-subtitle">Novel data sources, massive computing, breakthrough publications</p>
 
-          <!-- CSCW 2024 -->
-          <article class="pub-card pub-featured">
-            <div class="pub-header">
-              <span class="pub-venue">CSCW 2024</span>
-              <span class="pub-type">Research Article</span>
-              <span class="pub-award">🏆 DEI Recognition</span>
-            </div>
-            <h3 class="pub-title">Race and Privacy in Broadcast Police Communications</h3>
-            <p class="pub-authors">Venkit PN, <strong>Graziul C</strong>, Goodman MA, Kenny SN, Wilson S</p>
-            <p class="pub-abstract">First large-scale analysis (80,775 hours) of race and privacy in police radio communications. Found disproportionate mentions of Black people in Chicago PD broadcasts, revealing how officers' attention is distributed across racial/ethnic groups and raising privacy concerns.</p>
+              <div class="timeline-cards">
+                <div class="timeline-card featured megagrant">
+                  <div class="card-year">2021-2025</div>
+                  <div class="grant-badge">$2.7M NIH R01</div>
+                  <h3>Principal Investigator: Police Language & Youth Outcomes</h3>
+                  <div class="card-institution">NIH National Institute on Minority Health and Health Disparities</div>
+                  <p><strong>Grant:</strong> R01MD015064 (Co-PI with Margaret Beale Spencer)</p>
+                  <p><strong>Title:</strong> "Primed to (re)act: Can changes in procedural language prevent adverse events between police and minority male youth?"</p>
+                  <div class="grant-goals">
+                    <p><strong>Research Goals:</strong></p>
+                    <ul>
+                      <li>First NIH-funded analysis of police radio communications</li>
+                      <li>Understand how officers' and dispatchers' language impacts encounters with minority male youth</li>
+                      <li>Develop assessment tool and training program to reduce negative outcomes</li>
+                      <li>Apply PVEST theory to understand reactive coping strategies in stress</li>
+                    </ul>
+                  </div>
+                  <div class="card-impact">
+                    <strong>Significance:</strong> First major federal funding to analyze police language systematically. Positions procedural language as an intervention point for reducing adverse encounters—a preventive approach ahead of reactive accountability measures.
+                  </div>
+                </div>
 
-            <div class="audience-content active" data-audience="academic">
-              <div class="pub-relevance">
-                <strong>Academic Impact:</strong> Bridges CSCW, HCI, and critical race studies. Introduces novel methods for analyzing sociotechnical systems of policing and demonstrates privacy implications of publicly-broadcast communications.
+                <div class="timeline-card featured">
+                  <div class="card-year">2022</div>
+                  <h3>Promoted to Research Assistant Professor</h3>
+                  <div class="card-institution">University of Chicago</div>
+                  <p><strong>Role:</strong> Leading AI/ML research on police communications</p>
+                  <ul class="card-details">
+                    <li><strong>Argonne National Lab grant:</strong> 6,000+ node-hours on Polaris, 2,000+ on ThetaGPU</li>
+                    <li>Direct VAD, ASR, SER, and NLP development</li>
+                    <li>Lead manuscript development across disciplines (ML, HCI, sociology, linguistics)</li>
+                    <li>Mentor 15-20 graduate research assistants in theory-based data science</li>
+                  </ul>
+                  <div class="card-insight">
+                    <strong>Scaling Up:</strong> Leveraged supercomputing resources to process tens of thousands of hours of audio. Built interdisciplinary team bridging computer science, linguistics, and social science.
+                  </div>
+                </div>
+
+                <div class="timeline-card highlight">
+                  <div class="card-year">2023</div>
+                  <h3>Does Big Data Serve Policy? Not Without Context</h3>
+                  <div class="card-institution">Computational and Mathematical Organization Theory</div>
+                  <p><strong>Lead Author:</strong> Chris Graziul (with Belikov, Chattopadyay, Evans, et al.)</p>
+                  <p class="card-abstract"><strong>Abstract:</strong> Evaluated social science methodology through DARPA Ground Truth project's simulated worlds. Found that problem-solving without shared ontology—where world characteristics remain uncertain—poses strong limits to quantitative analysis even with common tasks. Demonstrated that contemporary computational social science requires theoretical context to avoid spurious policy recommendations.</p>
+                  <a href="https://doi.org/10.1007/s10588-022-09362-3" target="_blank" class="card-link">Read Paper →</a>
+                  <div class="card-impact">
+                    <strong>Critical Intervention:</strong> Cautioned against atheoretical "big data" approaches. Showed how seemingly rigorous quantitative analyses can mislead policy without domain expertise and contextual understanding.
+                  </div>
+                </div>
+
+                <div class="timeline-card breakthrough">
+                  <div class="card-year">2024</div>
+                  <div class="breakthrough-badge">Breakthrough Year</div>
+                  <h3>Three Major Publications & Multiple Presentations</h3>
+
+                  <div class="pub-cluster">
+                    <div class="pub-mini featured-pub">
+                      <div class="pub-venue-small">IEEE SLT 2024</div>
+                      <h4>Speech Recognition for Police Radio</h4>
+                      <p><em>Srivastava, Chou, Shroff, Livescu, Graziul</em></p>
+                      <p><strong>BPC-CPD Corpus:</strong> 62,080 utterances (46.2 hours) manually transcribed from Chicago PD radio across 11 dispatch zones. First benchmark dataset for ASR on police communications.</p>
+                      <p><strong>Finding:</strong> Fine-tuned models reach human-level performance despite challenging acoustic properties.</p>
+                      <a href="https://ieeexplore.ieee.org/document/10832157" target="_blank">IEEE Xplore</a> | <a href="https://arxiv.org/abs/2409.10858" target="_blank">arXiv</a>
+                    </div>
+
+                    <div class="pub-mini featured-pub">
+                      <div class="pub-venue-small">CSCW 2024</div>
+                      <div class="dei-badge-small">🏆 DEI Recognition</div>
+                      <h4>Race and Privacy in Broadcast Police Communications</h4>
+                      <p><em>Venkit, Graziul, Goodman, Kenny, Wilson</em></p>
+                      <p><strong>Analysis:</strong> 80,775 hours of Chicago PD radio. Found disproportionate mentions of Black people, revealing unequal distribution of police attention across racial/ethnic groups.</p>
+                      <p><strong>Contribution:</strong> First large-scale analysis of race and privacy in police radio. Bridges CSCW, HCI, and critical race studies.</p>
+                      <a href="https://dl.acm.org/doi/10.1145/3686921" target="_blank">ACM DL</a> | <a href="https://arxiv.org/abs/2407.01817" target="_blank">arXiv</a>
+                    </div>
+
+                    <div class="pub-mini">
+                      <div class="pub-venue-small">IC2S2 2024</div>
+                      <h4>Three Presentations at Computational Social Science Conference</h4>
+                      <ul>
+                        <li>"Reliability and Validity of Two-Way Radio Use as a Measure of Police Activity"</li>
+                        <li>"The Praxis of Data Annotation and Ideational Search"</li>
+                        <li>Student presentations: Voice activity analysis, conversation recognition, dominance analysis</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="audience-content" data-audience="policymaker">
-              <div class="pub-relevance">
-                <strong>Policy Implications:</strong> Provides quantitative evidence of racial disparities in police attention. Raises urgent questions about balancing transparency (public broadcasts) with privacy rights, especially for communities of color.
+          </section>
+
+          <!-- Section 5: Current Work (2025) -->
+          <section class="fullscreen-section phase-section" id="current" data-phase="4">
+            <div class="phase-marker">Phase 4: 2025-Present</div>
+            <div class="section-content">
+              <h2 class="section-title">Leading Critical Conversations in AI</h2>
+              <p class="section-subtitle">Challenging assumptions, proposing alternatives</p>
+
+              <div class="timeline-cards">
+                <div class="timeline-card featured spotlight">
+                  <div class="card-year">2025</div>
+                  <div class="equal-contrib-badge">Equal Contribution</div>
+                  <h3>Stop treating 'AGI' as the north-star goal of AI research</h3>
+                  <div class="card-institution">ICML 2025 Position Paper</div>
+                  <p><strong>Authors:</strong> Blili-Hamelin B*, <strong>Graziul C*</strong>, Hancox-Li L, Hazan H, El-Mhamdi E-M, Ghosh A, Heller K, Metcalf J, Murai F, Salvaggio E, Smart A, Snider T, Tighanimine M, Ringer T, Mitchell M, Dori-Hacohen S</p>
+
+                  <p class="card-abstract"><strong>Argument:</strong> Focusing on "artificial general intelligence" (AGI) undermines effective AI goal-setting. Identifies six key traps aggravated by AGI discourse:</p>
+                  <ol class="traps-list">
+                    <li><strong>Illusion of Consensus</strong> – AGI appears to unite but conceals deep disagreements</li>
+                    <li><strong>Supercharging Bad Science</strong> – Vague goals enable unfalsifiable claims</li>
+                    <li><strong>Presuming Value-Neutrality</strong> – Ignores whose values shape "general" intelligence</li>
+                    <li><strong>Goal Lottery</strong> – Assumes AGI automatically achieves all goals</li>
+                    <li><strong>Generality Debt</strong> – Promises breadth while delivering narrow applications</li>
+                    <li><strong>Normalized Exclusion</strong> – Marginalizes diverse approaches and communities</li>
+                  </ol>
+
+                  <p><strong>Recommendation:</strong> AI research should (1) prioritize specificity in goals, (2) center pluralism about multiple approaches, (3) foster inclusion of diverse disciplines and communities.</p>
+
+                  <a href="https://arxiv.org/abs/2502.03689" target="_blank" class="card-link">arXiv</a>
+                  <a href="https://openreview.net/forum?id=1RlrtH6ydW" target="_blank" class="card-link">OpenReview</a>
+
+                  <div class="card-impact">
+                    <strong>Critical Leadership:</strong> Challenges dominant narrative in AI research. Connects AI governance, science studies, and ethics to question fundamental assumptions. Advocates for AI development that serves diverse communities rather than chasing monolithic "superintelligence."
+                  </div>
+                </div>
+
+                <div class="timeline-card highlight">
+                  <div class="card-year">2025</div>
+                  <h3>The Case for a National Repository of Policing Data</h3>
+                  <div class="card-institution">20th International Conference on Open Repositories</div>
+                  <p><strong>Authors:</strong> Danton C, Graziul C, Ramos E</p>
+                  <p><strong>Proposal:</strong> Infrastructure for democratized access to policing data in the United States. Argues for centralized repository that balances transparency with privacy, enabling research while protecting individual rights.</p>
+                  <p><strong>Presentation:</strong> June 15-18, 2025, Chicago, IL</p>
+                  <div class="card-insight">
+                    <strong>Forward-Thinking:</strong> Proposes institutional infrastructure before crisis demands it. Anticipates future debates about policing data governance and positions data stewardship as essential public good.
+                  </div>
+                </div>
+
+                <div class="timeline-card">
+                  <div class="card-year">Ongoing</div>
+                  <h3>Participatory Data Governance Research</h3>
+                  <p><strong>Focus:</strong> Decentralized autonomous data stewardship models</p>
+                  <ul class="card-details">
+                    <li>Proposing frameworks where communities control their data</li>
+                    <li>Developing alternatives to corporate/government data monopolies</li>
+                    <li>Rebalancing power between data subjects and data users</li>
+                    <li>Exploring Web3-adjacent thinking without jargon</li>
+                  </ul>
+                  <div class="card-insight">
+                    <strong>Next Evolution:</strong> Anticipating future of data rights and community control. Developing practical models for participatory governance that give communities meaningful power over data collection, use, and sharing.
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="audience-content" data-audience="public">
-              <div class="pub-relevance">
-                <strong>Why It Matters:</strong> Shows how police radio reveals patterns of racial bias in who gets police attention. Raises concerns about privacy when broadcasts publicly share details about community members, especially Black residents.
+          </section>
+
+          <!-- Section 6: Resources & Contact -->
+          <section class="fullscreen-section resources-section" id="resources">
+            <div class="section-content">
+              <h2 class="section-title">Resources & Collaboration</h2>
+              <p class="section-subtitle">Open data, academic profiles, and ways to connect</p>
+
+              <div class="resources-grid">
+                <div class="resource-card-large featured-resource">
+                  <div class="resource-icon-large">📊</div>
+                  <h3>BPC-CPD Corpus</h3>
+                  <div class="resource-subtitle">Open Dataset for Police Communications Research</div>
+                  <div class="resource-stats">
+                    <div class="stat-item">
+                      <div class="stat-number">62,080</div>
+                      <div class="stat-label">Utterances</div>
+                    </div>
+                    <div class="stat-item">
+                      <div class="stat-number">46.2</div>
+                      <div class="stat-label">Hours Transcribed</div>
+                    </div>
+                    <div class="stat-item">
+                      <div class="stat-number">11</div>
+                      <div class="stat-label">Dispatch Zones</div>
+                    </div>
+                  </div>
+                  <p>Large-scale corpus of broadcast police communications from Chicago Police Department. Manually transcribed and annotated for research on ASR, policing practices, and officer coordination.</p>
+                  <a href="https://voices.uchicago.edu/p2r/bpc-cpd-corpus/" target="_blank" class="resource-cta">Access Dataset →</a>
+                </div>
+
+                <div class="resource-card">
+                  <div class="resource-icon-med">🎓</div>
+                  <h3>Academic Profiles</h3>
+                  <div class="profile-links-styled">
+                    <a href="https://scholar.google.com/citations?user=OQr5RwsAAAAJ" target="_blank" class="profile-link">
+                      <span class="link-icon">📚</span>
+                      Google Scholar
+                    </a>
+                    <a href="https://orcid.org/0000-0001-8350-077X" target="_blank" class="profile-link">
+                      <span class="link-icon">🆔</span>
+                      ORCID
+                    </a>
+                    <a href="https://www.linkedin.com/in/christopher-graziul-6250344/" target="_blank" class="profile-link">
+                      <span class="link-icon">💼</span>
+                      LinkedIn
+                    </a>
+                    <a href="https://twitter.com/cgraziul" target="_blank" class="profile-link">
+                      <span class="link-icon">🐦</span>
+                      Twitter
+                    </a>
+                  </div>
+                </div>
+
+                <div class="resource-card">
+                  <div class="resource-icon-med">📄</div>
+                  <h3>Full CV</h3>
+                  <p>Complete academic curriculum vitae with publications, presentations, grants, and service.</p>
+                  <a href="/uploads/Graziul CV 2025_05_12.pdf" target="_blank" class="resource-cta-small">Download PDF →</a>
+                </div>
+
+                <div class="resource-card contact-card">
+                  <div class="resource-icon-med">✉️</div>
+                  <h3>Get in Touch</h3>
+                  <div class="contact-info">
+                    <p><strong>Email:</strong> <a href="mailto:graziul@uchicago.edu">graziul@uchicago.edu</a></p>
+                    <p><strong>Office:</strong> Department of Comparative Human Development<br>University of Chicago</p>
+                    <p><strong>Phone:</strong> (773) 702-9387</p>
+                  </div>
+                </div>
+
+                <div class="resource-card collaboration-card">
+                  <div class="resource-icon-med">🤝</div>
+                  <h3>Open to Collaboration</h3>
+                  <ul class="collab-list">
+                    <li><strong>Academic Research:</strong> Co-authoring, data sharing, methodological consultation</li>
+                    <li><strong>Policy Development:</strong> Evidence-based recommendations, data governance frameworks</li>
+                    <li><strong>Community Engagement:</strong> Participatory research design, public scholarship</li>
+                    <li><strong>Time-Bounded Projects:</strong> Specific technical or research challenges</li>
+                    <li><strong>Faculty Positions:</strong> Currently on the tenure-track job market</li>
+                  </ul>
+                </div>
               </div>
             </div>
+          </section>
 
-            <div class="pub-links">
-              <a href="https://dl.acm.org/doi/10.1145/3686921" target="_blank" class="pub-link">ACM DL</a>
-              <a href="https://arxiv.org/abs/2407.01817" target="_blank" class="pub-link">arXiv</a>
-            </div>
-          </article>
-
-          <!-- IEEE SLT 2024 -->
-          <article class="pub-card">
-            <div class="pub-header">
-              <span class="pub-venue">IEEE SLT 2024</span>
-              <span class="pub-type">Technical Paper</span>
-            </div>
-            <h3 class="pub-title">Speech Recognition for Analysis of Police Radio Communication</h3>
-            <p class="pub-authors">Srivastava T, Chou J-C, Shroff P, Livescu K, <strong>Graziul C</strong></p>
-            <p class="pub-abstract">Developed BPC-CPD corpus: 62,080 utterances (46.2 hours) of manually transcribed police radio from Chicago's 11 dispatch zones. Demonstrated that fine-tuned ASR models can reach human-level performance on this challenging domain.</p>
-
-            <div class="audience-content active" data-audience="academic">
-              <div class="pub-relevance">
-                <strong>Academic Impact:</strong> First systematic ASR evaluation on police radio. Contributes benchmark dataset and methods for processing naturalistic, domain-specific audio with unique terminology and acoustic properties.
-              </div>
-            </div>
-            <div class="audience-content" data-audience="policymaker">
-              <div class="pub-relevance">
-                <strong>Policy Implications:</strong> Enables scalable automated analysis of police communications for quality assurance, training evaluation, and oversight—previously impossible due to volume of audio data.
-              </div>
-            </div>
-            <div class="audience-content" data-audience="public">
-              <div class="pub-relevance">
-                <strong>Why It Matters:</strong> Makes it technically feasible to automatically transcribe and analyze thousands of hours of police radio, enabling accountability at scales that would be impossible with human reviewers alone.
-              </div>
-            </div>
-
-            <div class="pub-links">
-              <a href="https://ieeexplore.ieee.org/document/10832157" target="_blank" class="pub-link">IEEE Xplore</a>
-              <a href="https://arxiv.org/abs/2409.10858" target="_blank" class="pub-link">arXiv</a>
-            </div>
-          </article>
-
-          <!-- CMOT 2023 -->
-          <article class="pub-card">
-            <div class="pub-header">
-              <span class="pub-venue">CMOT 2023</span>
-              <span class="pub-type">Research Article</span>
-            </div>
-            <h3 class="pub-title">Does Big Data Serve Policy? Not Without Context</h3>
-            <p class="pub-authors"><strong>Graziul C</strong>, Belikov A, Chattopadyay I, Chen Z, Fang H, Girdhar A, et al.</p>
-            <p class="pub-abstract">Experimental study demonstrating that computational social science requires theoretical context. Used <em>in silico</em> approach to show how decontextualized "big data" can mislead policy decisions.</p>
-
-            <div class="audience-content active" data-audience="academic">
-              <div class="pub-relevance">
-                <strong>Academic Impact:</strong> Methodological critique of atheoretical data science. Demonstrates necessity of social theory for interpreting computational findings and avoiding spurious policy recommendations.
-              </div>
-            </div>
-            <div class="audience-content" data-audience="policymaker">
-              <div class="pub-relevance">
-                <strong>Policy Implications:</strong> Cautions against relying on "big data" insights without domain expertise and contextual understanding. Shows how seemingly rigorous quantitative analyses can produce misleading policy guidance.
-              </div>
-            </div>
-            <div class="audience-content" data-audience="public">
-              <div class="pub-relevance">
-                <strong>Why It Matters:</strong> Questions whether "big data" really knows better than human expertise and local knowledge. Argues for combining data with context rather than replacing human judgment with algorithms.
-              </div>
-            </div>
-
-            <div class="pub-links">
-              <a href="https://doi.org/10.1007/s10588-022-09362-3" target="_blank" class="pub-link">Journal</a>
-            </div>
-          </article>
-
-          <!-- EPB 2018 -->
-          <article class="pub-card">
-            <div class="pub-header">
-              <span class="pub-venue">Environment & Planning B 2018</span>
-              <span class="pub-type">Research Article</span>
-            </div>
-            <h3 class="pub-title">Neighborhood formation in St. Louis, 1930</h3>
-            <p class="pub-authors">Logan J, <strong>Graziul C</strong>, Frey N</p>
-            <p class="pub-abstract">Geocoded full-count census data to analyze neighborhood formation in early 20th century St. Louis. Found race/ethnicity was by far the strongest factor in residential sorting, with social class also important. Demonstrates power of computational historical geography.</p>
-
-            <div class="audience-content active" data-audience="academic">
-              <div class="pub-relevance">
-                <strong>Academic Impact:</strong> Methodological contribution to urban sociology and historical GIS. Novel segregation measures for point-level data enable new analyses of historical neighborhood formation impossible with aggregate data.
-              </div>
-            </div>
-            <div class="audience-content" data-audience="policymaker">
-              <div class="pub-relevance">
-                <strong>Policy Implications:</strong> Documents historical roots of present-day urban inequality. Shows how segregation patterns from 1930s persist and inform contemporary housing policy, zoning decisions, and equity initiatives.
-              </div>
-            </div>
-            <div class="audience-content" data-audience="public">
-              <div class="pub-relevance">
-                <strong>Why It Matters:</strong> Reveals how neighborhoods were deliberately segregated by race—helping us understand why cities look the way they do today and what that means for opportunity and equity.
-              </div>
-            </div>
-
-            <div class="pub-links">
-              <a href="https://doi.org/10.1177/2399808318801958" target="_blank" class="pub-link">Journal</a>
-            </div>
-          </article>
-
-          <!-- Book Chapters & Other Work -->
-          <article class="pub-card pub-compact">
-            <div class="pub-header">
-              <span class="pub-venue">Additional Work</span>
-            </div>
-            <h3 class="pub-title">Book Chapters & Earlier Publications</h3>
-            <ul class="pub-list">
-              <li><strong>2022:</strong> "Positive Identity Development as an Integration Measure" in <em>Re/Formation and Identity</em> (Springer)</li>
-              <li><strong>2019:</strong> "Innovating Resilience Promotion" in <em>Advances in Child Development and Behavior</em> (JAI)</li>
-              <li><strong>2018:</strong> "Commuting Behavior and Local Population Loss" in <em>ATPP: Transportation in Places Where People Leave</em> (Elsevier)</li>
-              <li><strong>2016:</strong> "The Science of Scenes" in <em>Scenescapes</em> (University of Chicago Press)</li>
-              <li><strong>2012:</strong> Two healthcare papers in <em>Medical Care</em> and <em>BMC Health Services Research</em> on pharmaceutical markets</li>
-              <li><strong>2008:</strong> Book review in <em>Science</em> with Terry Nichols Clark</li>
-            </ul>
-            <div class="pub-links">
-              <a href="/uploads/Graziul CV 2025_05_12.pdf" target="_blank" class="pub-link">Full CV</a>
-            </div>
-          </article>
-        </div>
-
-  # Experience Section
-  - block: experience
-    id: experience
-    content:
-      title: Experience
-      date_format: Jan 2006
-      items:
-        - title: Research Assistant Professor
-          company: University of Chicago
-          company_url: ''
-          company_logo: UChicago_Avatar
-          location: Illinois
-          date_start: '2022-08-01'
-          date_end: ''
-          description: |2-
-            Leading development of AI/ML methods for analyzing police communications and mentoring interdisciplinary research teams.
-
-            * Direct VAD, ASR, SER, and NLP development for police radio analysis
-            * Lead manuscript development across multiple disciplines (ML, HCI, sociology, linguistics)
-            * Principal Investigator on NIH R01 ($2.7M) and Argonne Leadership Computing grants
-            * Mentor 15-20 graduate research assistants in theory-based data science
-
-        - title: Data Scientist
-          company: University of Chicago
-          company_url: ''
-          company_logo: UChicago_Avatar
-          location: Illinois
-          date_start: '2018-07-01'
-          date_end: '2022-07-31'
-          description: |2-
-            Mixed methods research bridging education, urban studies, and computational social science.
-
-            * Developed PVEST-informed research designs for NSF STEM-US Center
-            * Assessed arts-augmented STEM curricula effectiveness for 7th-8th graders
-            * Evaluated assessment tools for HBCU STEM student success
-            * Led IRB protocols, experimental design, and secondary data analysis
-            * Contributed to multiple successfully funded grants
-
-        - title: Postdoctoral Research Associate
-          company: Brown University
-          company_url: ''
-          company_logo: Brown_Avatar
-          location: Rhode Island
-          date_start: '2016-07-01'
-          date_end: '2018-06-29'
-          description: |2-
-            Computational historical geography and segregation analysis.
-
-            * Geocoded full-count census data (1900-1940) for 69 cities (30M+ records)
-            * Developed novel segregation measures for point-level data
-            * Built scalable ETL workflows using Python, R, Stata, and Matlab
-            * Analyzed residential segregation patterns for 10+ racial/ethnic groups
-            * Published methodology in <em>Environment and Planning B</em>
-    design:
-      columns: '2'
-
-  # Resources Section
-  - block: markdown
-    id: resources
-    content:
-      title: "Resources & Contact"
-      text: |
-        <div class="resource-grid">
-          <div class="resource-card resource-highlight">
-            <div class="resource-icon">📊</div>
-            <h3>BPC-CPD Corpus</h3>
-            <p>Large-scale corpus of broadcast police communications from Chicago Police Department. 62,080+ manually transcribed utterances (46.2 hours) across 11 dispatch zones. Open resource for researchers, policymakers, and communities.</p>
-            <a href="https://voices.uchicago.edu/p2r/bpc-cpd-corpus/" target="_blank" class="resource-link">Access Dataset →</a>
-          </div>
-
-          <div class="resource-card">
-            <div class="resource-icon">🎓</div>
-            <h3>Academic Profiles</h3>
-            <div class="profile-links">
-              <a href="https://scholar.google.com/citations?user=OQr5RwsAAAAJ" target="_blank">Google Scholar</a>
-              <a href="https://orcid.org/0000-0001-8350-077X" target="_blank">ORCID</a>
-              <a href="https://www.linkedin.com/in/christopher-graziul-6250344/" target="_blank">LinkedIn</a>
-              <a href="https://twitter.com/cgraziul" target="_blank">Twitter</a>
-            </div>
-          </div>
-
-          <div class="resource-card">
-            <div class="resource-icon">💼</div>
-            <h3>Available For</h3>
-            <ul class="availability-list">
-              <li><strong>Academic Collaborations:</strong> Research partnerships, co-authoring, data sharing</li>
-              <li><strong>Policy Consulting:</strong> Evidence-based policy development, data governance frameworks</li>
-              <li><strong>Community Engagement:</strong> Participatory research, public talks, workshops</li>
-              <li><strong>Time-Bounded Projects:</strong> Specific research questions, technical challenges</li>
-              <li><strong>Faculty Positions:</strong> Currently on the tenure-track job market</li>
-            </ul>
-          </div>
-
-          <div class="resource-card resource-contact">
-            <div class="resource-icon">✉️</div>
-            <h3>Get in Touch</h3>
-            <p><strong>Email:</strong> <a href="mailto:graziul@uchicago.edu">graziul@uchicago.edu</a></p>
-            <p><strong>Office:</strong> Department of Comparative Human Development, University of Chicago</p>
-            <p><strong>Phone:</strong> (773) 702-9387</p>
-          </div>
         </div>
 ---

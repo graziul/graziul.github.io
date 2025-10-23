@@ -4,33 +4,24 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: About
-    url: '#about'
+  - name: Home
+    url: '#hero'
     weight: 10
-  - name: Research
-    url: '#recent-work'
+  - name: Foundation
+    url: '#foundation'
     weight: 20
-  - name: Experience
-    url: '#experience'
+  - name: Methods
+    url: '#computational'
     weight: 30
-  - name: CV
-    url: uploads/Graziul CV 2025_05_12.pdf
+  - name: AI & Policing
+    url: '#policing'
     weight: 40
+  - name: Current Work
+    url: '#current'
+    weight: 50
   - name: Resources
     url: '#resources'
-    weight: 50
-
-# Resources submenu (if supported by theme)
-resources:
-  - name: BPC-CPD Corpus
-    url: https://voices.uchicago.edu/p2r/bpc-cpd-corpus/
-    weight: 10
-  - name: ICML 2025 Paper
-    url: https://openreview.net/forum?id=1RlrtH6ydW
-    weight: 20
-  - name: CSCW 2024 Paper
-    url: https://dl.acm.org/doi/10.1145/3686921
-    weight: 30
-  - name: SLT 2024 Paper
-    url: https://ieeexplore.ieee.org/document/10832157
-    weight: 40
+    weight: 60
+  - name: CV
+    url: uploads/Graziul CV 2025_05_12.pdf
+    weight: 70
