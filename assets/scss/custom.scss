@@ -1,6 +1,6 @@
 /* ========================================
    Custom Styles for Christopher Graziul
-   Visual hierarchy for academic content
+   Consistent formatting with visual hierarchy
    ======================================== */
 
 /* CSS Variables */
@@ -10,35 +10,49 @@
   --accent-color: #6366f1;
 
   /* Content type colors */
-  --major-publication: #6366f1;
+  --publication-color: #6366f1;
   --grant-color: #10b981;
-  --conference-color: #f59e0b;
-  --dataset-color: #8b5cf6;
+  --position-color: #64748b;
 
   /* Period colors for visual separation */
-  --period-1: #e0e7ff; /* Light indigo */
-  --period-2: #fce7f3; /* Light pink */
-  --period-3: #fef3c7; /* Light amber */
-  --period-4: #dbeafe; /* Light blue */
+  --period-1: #f0f4ff;
+  --period-2: #fff0f7;
+  --period-3: #fffbeb;
+  --period-4: #eff6ff;
 }
 
 /* Dark mode adjustments */
 .dark {
-  --period-1: rgba(99, 102, 241, 0.1);
-  --period-2: rgba(236, 72, 153, 0.1);
-  --period-3: rgba(245, 158, 11, 0.1);
-  --period-4: rgba(59, 130, 246, 0.1);
+  --period-1: rgba(99, 102, 241, 0.08);
+  --period-2: rgba(236, 72, 153, 0.08);
+  --period-3: rgba(245, 158, 11, 0.08);
+  --period-4: rgba(59, 130, 246, 0.08);
 }
 
 /* ========================================
    HERO SECTION
    ======================================== */
 
+/* Center hero content */
+.hero-body {
+  text-align: center;
+}
+
+.hero-body h1 {
+  margin-bottom: 10px;
+}
+
+.hero-body p {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 .hero-highlights {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
-  margin: 30px 0;
+  margin: 30px auto;
+  max-width: 1000px;
 }
 
 .highlight-item {
@@ -84,15 +98,14 @@
    PERIOD SECTIONS - Visual Differentiation
    ======================================== */
 
-/* Add subtle background colors to differentiate periods */
 section[id="foundation"] {
   background: var(--period-1);
-  border-left: 4px solid var(--major-publication);
+  border-left: 4px solid var(--publication-color);
 }
 
 section[id="computational"] {
   background: var(--period-2);
-  border-left: 4px solid var(--conference-color);
+  border-left: 4px solid var(--grant-color);
 }
 
 section[id="policing"] {
@@ -102,215 +115,174 @@ section[id="policing"] {
 
 section[id="current"] {
   background: var(--period-4);
-  border-left: 4px solid var(--dataset-color);
+  border-left: 4px solid var(--publication-color);
 }
 
-/* Ensure sections have padding */
 section[id] {
   padding: 60px 40px;
   margin-bottom: 0;
 }
 
 /* ========================================
-   CONTENT TYPE HIERARCHY
+   UNIFIED CARD SYSTEM
+   All items use same base card with variations
    ======================================== */
 
-/* Major Publications - Highest visual prominence */
-.item-major {
+.timeline-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Base card - consistent for all items */
+.item-card {
   background: white;
-  border-left: 5px solid var(--major-publication);
-  padding: 30px;
-  margin: 30px 0;
+  padding: 25px;
+  margin: 20px 0;
   border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #ccc;
+}
+
+.dark .item-card {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Publication card - blue accent */
+.item-card.publication {
+  border-left-color: var(--publication-color);
+}
+
+/* Grant card - green accent */
+.item-card.grant {
+  border-left-color: var(--grant-color);
+}
+
+/* Position card - gray accent */
+.item-card.position {
+  border-left-color: var(--position-color);
+}
+
+/* Major items get more prominence */
+.item-card.major {
+  padding: 30px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.dark .item-major {
-  background: rgba(255, 255, 255, 0.05);
+.dark .item-card.major {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
-.item-major .item-title {
-  font-size: 20px;
+/* Year headers for grouping */
+.year-header {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--publication-color);
+  margin: 40px 0 20px 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--publication-color);
+}
+
+/* Card title - consistent size */
+.item-card .item-title {
+  font-size: 18px;
   font-weight: 700;
-  color: var(--major-publication);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   line-height: 1.4;
 }
 
-.item-major .item-title a {
-  color: var(--major-publication);
+.item-card.major .item-title {
+  font-size: 20px;
+}
+
+.item-card .item-title a {
+  color: inherit;
   text-decoration: none;
-  transition: opacity 0.2s;
 }
 
-.item-major .item-title a:hover {
-  opacity: 0.7;
+.item-card .item-title a:hover {
   text-decoration: underline;
+  opacity: 0.8;
 }
 
-.item-major .item-meta {
+.item-card.publication .item-title {
+  color: var(--publication-color);
+}
+
+.item-card.grant .item-title {
+  color: var(--grant-color);
+}
+
+.item-card.position .item-title {
+  color: var(--position-color);
+}
+
+/* Card metadata - consistent size, never smaller than surrounding text */
+.item-card .item-meta {
   font-size: 15px;
   color: #666;
-  margin-bottom: 15px;
-  font-style: italic;
+  margin-bottom: 12px;
+  line-height: 1.6;
 }
 
-.dark .item-major .item-meta {
+.dark .item-card .item-meta {
   color: #999;
 }
 
-.item-major .item-description {
+/* Card body text */
+.item-card .item-description {
   font-size: 15px;
   line-height: 1.7;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
-.item-major .item-badge {
+.item-card .item-description p {
+  margin-bottom: 12px;
+}
+
+.item-card .item-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Lists within cards */
+.item-card ul, .item-card ol {
+  margin: 12px 0;
+  padding-left: 25px;
+}
+
+.item-card li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Badges */
+.item-badge {
   display: inline-block;
   padding: 4px 12px;
-  background: var(--major-publication);
+  background: var(--publication-color);
   color: white;
   border-radius: 12px;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-top: 10px;
+  margin: 8px 8px 0 0;
 }
 
-/* Grant/Significant Work - High prominence */
-.item-grant {
-  background: white;
-  border-left: 5px solid var(--grant-color);
-  padding: 25px;
-  margin: 25px 0;
-  border-radius: 8px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+.item-badge.dei {
+  background: #10b981;
 }
 
-.dark .item-grant {
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+.item-badge.equal-contribution {
+  background: #8b5cf6;
 }
 
-.item-grant .item-title {
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--grant-color);
-  margin-bottom: 8px;
-}
-
-.item-grant .item-meta {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 12px;
-}
-
-.dark .item-grant .item-meta {
-  color: #999;
-}
-
-/* Dataset/Resource - Medium prominence */
-.item-dataset {
-  background: white;
-  border-left: 4px solid var(--dataset-color);
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 6px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
-}
-
-.dark .item-dataset {
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
-
-.item-dataset .item-title {
-  font-size: 17px;
-  font-weight: 600;
-  color: var(--dataset-color);
-  margin-bottom: 8px;
-}
-
-.item-dataset .item-title a {
-  color: var(--dataset-color);
-  text-decoration: none;
-}
-
-.item-dataset .item-title a:hover {
-  text-decoration: underline;
-}
-
-/* Standard Item - Lower prominence for degrees, positions, presentations */
-.item-standard {
-  padding: 15px 0;
-  margin: 15px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-}
-
-.dark .item-standard {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.item-standard .item-title {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.item-standard .item-meta {
-  font-size: 14px;
-  color: #666;
-}
-
-.dark .item-standard .item-meta {
-  color: #999;
-}
-
-/* Presentation List - Compact format */
-.presentations-list {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-}
-
-.presentations-list li {
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.dark .presentations-list li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.presentations-list li:last-child {
-  border-bottom: none;
-}
-
-.presentations-list .presentation-title {
-  font-weight: 600;
-  color: var(--conference-color);
-}
-
-.presentations-list .presentation-authors {
-  color: #333;
-}
-
-.dark .presentations-list .presentation-authors {
-  color: #ccc;
-}
-
-.presentations-list .presentation-venue {
-  font-style: italic;
-  color: #666;
-  font-size: 13px;
-}
-
-.dark .presentations-list .presentation-venue {
-  color: #999;
+/* Section dividers */
+.section-divider {
+  margin: 50px 0;
+  border: none;
+  border-top: 2px solid rgba(102, 126, 234, 0.15);
 }
 
 /* ========================================
@@ -321,7 +293,7 @@ section[id] {
   width: 100%;
   max-width: 600px;
   border-radius: 8px;
-  margin: 20px 0;
+  margin: 15px 0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -337,34 +309,8 @@ section[id] {
   color: #999;
 }
 
-/* Image container with optional side-by-side layout */
-.item-with-image {
-  display: flex;
-  gap: 25px;
-  align-items: flex-start;
-}
-
-.item-with-image .item-content {
-  flex: 1;
-}
-
-.item-with-image .item-image-container {
-  flex: 0 0 250px;
-}
-
-@media (max-width: 768px) {
-  .item-with-image {
-    flex-direction: column;
-  }
-
-  .item-with-image .item-image-container {
-    flex: 1 1 auto;
-    width: 100%;
-  }
-}
-
 /* ========================================
-   RESOURCES SECTION - Distinct Layout
+   RESOURCES SECTION
    ======================================== */
 
 section[id="resources"] {
@@ -377,7 +323,8 @@ section[id="resources"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 25px;
-  margin: 30px 0;
+  margin: 30px auto;
+  max-width: 1200px;
 }
 
 .resource-card {
@@ -402,17 +349,25 @@ section[id="resources"] {
   color: var(--accent-color);
   font-size: 18px;
   margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.resource-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 .resource-card ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 10px 0;
 }
 
 .resource-card li {
   padding: 8px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 15px;
 }
 
 .dark .resource-card li {
@@ -421,41 +376,6 @@ section[id="resources"] {
 
 .resource-card li:last-child {
   border-bottom: none;
-}
-
-/* ========================================
-   UTILITY CLASSES
-   ======================================== */
-
-.section-divider {
-  margin: 50px 0;
-  border: none;
-  border-top: 2px solid rgba(102, 126, 234, 0.15);
-}
-
-.text-muted {
-  color: #666;
-  font-size: 14px;
-}
-
-.dark .text-muted {
-  color: #999;
-}
-
-/* Links */
-a {
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: var(--gradient-start);
-}
-
-/* Timeline container */
-.timeline-section {
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 /* ========================================
@@ -480,12 +400,16 @@ a:hover {
     padding: 20px 10px;
   }
 
-  .item-major {
+  .item-card {
     padding: 20px;
   }
 
-  .item-major .item-title {
-    font-size: 18px;
+  .item-card.major {
+    padding: 25px;
+  }
+
+  .year-header {
+    font-size: 20px;
   }
 
   .resources-grid {
