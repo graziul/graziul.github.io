@@ -45,7 +45,7 @@ sections:
           company_logo: UChicago_Avatar
           location: Illinois
           date_start: '2022-08-01'
-          date_end: ''
+          date_end: '2025-06-30'
           description: |2-
             Responsibilities include:
 

@@ -17,7 +17,7 @@ main:
 #    url: '#publications'
 #    weight: 30
   - name: CV
-    url: uploads/Graziul CV 2025_05_12.pdf
+    url: uploads/GraziulCV2025_10_26.pdf
     weight: 20
   - name: CSCW 2024
     url: https://dl.acm.org/doi/10.1145/3686921
