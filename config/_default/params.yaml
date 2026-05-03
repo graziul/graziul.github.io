@@ -6,9 +6,9 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
+  theme_day: custom
+  theme_night: custom
+  font: custom
   font_size: L
 
 # SEO
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Chris Graziul. This work is licensed under {license}'
+    notice: '© {year} Chris Graziul. {license} &nbsp;·&nbsp; <a href="https://graziul.io" target="_blank" rel="noopener">Graziul Advisory</a> &nbsp;·&nbsp; <a href="https://idep.org" target="_blank" rel="noopener">IDEP</a>'
     license:
       enable: true
       allow_derivatives: false

@@ -1,0 +1,84 @@
+// Custom styles for graziul.github.io narrative hub
+
+// Callout card grid for homepage
+.graziul-callouts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.graziul-callout {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid $sta-primary;
+  padding: 1.5rem;
+  border-radius: 4px;
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  p {
+    color: $sta-menu-primary;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  a.callout-link {
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: $sta-primary;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Dark mode callout borders
+.dark .graziul-callout {
+  border-color: rgba(255, 255, 255, 0.12);
+  border-top-color: $sta-primary;
+}
+
+// Prose pages — limit width for readability
+.page-body {
+  max-width: 720px;
+}
+
+// Section headers on long pages
+.section-header {
+  border-bottom: 2px solid $sta-primary;
+  padding-bottom: 0.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+// Publication list items
+.pub-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .pub-award {
+    display: inline-block;
+    background: $sta-primary;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 1px 7px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+  }
+}

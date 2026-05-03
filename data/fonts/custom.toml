@@ -1,0 +1,13 @@
+google_fonts = "Lora:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400"
+
+[heading]
+  name = "Lora"
+  is_google = true
+
+[body]
+  name = "Source Sans 3"
+  is_google = true
+
+[nav_links]
+  name = "Source Sans 3"
+  is_google = true
