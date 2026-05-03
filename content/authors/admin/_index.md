@@ -14,15 +14,17 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Preceptor, Digital Studies
+role: Computational Sociologist · AI Governance
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: University of Chicago
     url: https://digitalstudies.uchicago.edu/
+  - name: Graziul Advisory
+    url: https://graziul.io
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include computational social science, critical policing studies, and urban sociology
+bio: Computational sociologist researching policing, data governance, and participatory AI/ML. Founder of the Illinois Data Equity Project (IDEP). Principal, Graziul Advisory.
 
 # Interests to show in About widget
 interests:
