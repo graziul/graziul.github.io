@@ -2,6 +2,8 @@
 title: About
 date: 2026-01-01
 type: page
+share: false
+commentable: false
 
 education:
   - degree: PhD, Sociology
@@ -33,12 +35,6 @@ The current work runs in two parallel structures. I serve as Executive Director 
 
 ---
 
-### Not a unicorn
-
-I am not a unicorn. I am a human who made deliberate choices at every stage, for reasons that were legible at the time. Physics and math gave me the technical confidence to engage hard problems quantitatively. Sociology gave me the empirical and theoretical grounding to ask whether the technical answer was the right one. GIS and data engineering gave me the ability to build research infrastructure that did not yet exist. CRHQ and CEDR gave me direct experience with how self-organized communities sustain themselves — and with how often the holding-it-together work is invisible until it is missing. Each step was an answer to a specific question. The combination is only unusual in retrospect.
-
----
-
 ### Education
 
 - PhD, Sociology — University of Chicago (2016)
@@ -52,4 +48,4 @@ I am not a unicorn. I am a human who made deliberate choices at every stage, for
 - Twitter/X: [@cgraziul](https://twitter.com/cgraziul)
 - [Google Scholar](https://scholar.google.com/citations?user=OQr5RwsAAAAJ)
 - ORCID: [0000-0001-8350-077X](https://orcid.org/0000-0001-8350-077X)
-- [LinkedIn](https://www.linkedin.com/in/cgraziul)
+- [LinkedIn](https://www.linkedin.com/in/christopher-graziul-6250344/)
