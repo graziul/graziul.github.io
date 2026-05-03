@@ -36,8 +36,11 @@ sections:
         </div>
         <div class="graziul-callout">
         <h3>Applied Work</h3>
-        <p>Where the research becomes practice. <a href="https://graziul.io" target="_blank" rel="noopener">Graziul Advisory ↗</a> for AI governance consulting; <a href="https://idep.org" target="_blank" rel="noopener">IDEP ↗</a> for community-led data governance infrastructure.</p>
+        <p>Where the research becomes practice. AI governance consulting through Graziul Advisory; community-led data governance infrastructure through the Illinois Data Equity Project.</p>
+        <p class="callout-actions">
         <a href="https://graziul.io" target="_blank" rel="noopener" class="callout-link">Graziul Advisory ↗</a>
+        <a href="https://idep.org" target="_blank" rel="noopener" class="callout-link">IDEP ↗</a>
+        </p>
         </div>
         </div>
     design:
