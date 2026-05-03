@@ -26,7 +26,7 @@ sections:
         <div class="graziul-callouts">
         <div class="graziul-callout">
         <h3><a href="/self-organizing/">Self-Organizing</a></h3>
-        <p>CRHQ/CEDR, the ICML position paper, IDEP — all began the same way. A latent community existed; the right signal surfaced it; then I helped catalyze what it became.</p>
+        <p>CRHQ/CEDR, the ICML position paper, IDEP — three communities that found themselves around an unaddressed problem. I joined two as a volunteer and built the third as infrastructure. What they share isn't who started them; it's what makes them survive.</p>
         <a href="/self-organizing/" class="callout-link">How this works →</a>
         </div>
         <div class="graziul-callout">
@@ -36,7 +36,8 @@ sections:
         </div>
         <div class="graziul-callout">
         <h3>Applied Work</h3>
-        <p>AI governance consulting at <a href="https://graziul.io" target="_blank" rel="noopener">Graziul Advisory ↗</a>. The Illinois Data Equity Project at <a href="https://idep.org" target="_blank" rel="noopener">idep.org ↗</a>.</p>
+        <p>Where the research becomes practice. <a href="https://graziul.io" target="_blank" rel="noopener">Graziul Advisory ↗</a> for AI governance consulting; <a href="https://idep.org" target="_blank" rel="noopener">IDEP ↗</a> for community-led data governance infrastructure.</p>
+        <a href="https://graziul.io" target="_blank" rel="noopener" class="callout-link">Graziul Advisory ↗</a>
         </div>
         </div>
     design:

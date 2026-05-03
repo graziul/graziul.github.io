@@ -35,7 +35,7 @@ The combination — physics, sociology, GIS, ML, community organizing — isn't 
 
 **Physics & Mathematics (Virginia Tech, 2004)**
 
-Two B.S. degrees because complex system dynamics required both. My undergraduate interest in fusion physics was not primarily about the elegance of the science — it was about energy as the primary constraint on global human flourishing, a civilizational-scale problem rather than an engineering one. That framing gave me something that has run through every subsequent project: comfort with hard, slow, important problems, and patience with the gap between a solvable problem and a solved one.
+Two B.S. degrees because complex system dynamics required both. The technical training gave me the willingness to bring quantitative methods to social problems and the patience for projects that take a decade to come into focus. By the time I graduated, it was already clear that the questions worth answering were not going to be physics questions. The substantive lessons from sociology — about how institutions actually behave when nobody is watching, and about whose interests the technical answer tends to serve — are what make the technical training safe to deploy.
 
 **GIS & Historical Data (Brown University, 2016–2018)**
 
@@ -43,7 +43,7 @@ As a postdoc at Brown's Population Studies and Training Center, I geocoded full-
 
 **Urban Sociology & Scenes (University of Chicago, 2005–2016)**
 
-The "scenes" framework examines how cultural amenities — restaurants, music venues, galleries, community spaces — generate social bonds and political resources. My dissertation and related publications developed the quantitative infrastructure for measuring scene types across U.S. cities and analyzing their relationship to voting behavior, social movement formation, and neighborhood change. Publications include Silver, Clark & Graziul (2011) in the *Handbook of Creative Cities* (Edward Elgar); my chapter in *Scenescapes* (Silver & Clark eds., University of Chicago Press, 2016); and Silver, Graziul & Clark (2013), SSRN 2318302. Understanding how communities organize around shared cultural spaces became a direct foundation for thinking about how online communities form and self-govern — the theoretical core of the CEDR work.
+The "scenes" framework examines how cultural amenities — restaurants, music venues, galleries, community spaces — generate social bonds and political resources. My dissertation and related publications developed the quantitative infrastructure for measuring scene types across U.S. cities and analyzing their relationship to voting behavior, social movement formation, and neighborhood change. Publications include Silver, Clark & Graziul (2011) in the *Handbook of Creative Cities* (Edward Elgar); my chapter in *Scenescapes* (Silver & Clark eds., University of Chicago Press, 2016); and Silver, Graziul & Clark (2013), SSRN 2318302. Understanding how communities organize around shared cultural spaces became a direct foundation for thinking about how online communities form and self-govern — the theoretical lens I brought to the work I later did inside CEDR.
 
 **DARPA Ground Truth (~2023)**
 
