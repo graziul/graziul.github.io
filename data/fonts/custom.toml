@@ -1,13 +1,11 @@
-google_fonts = "Lora:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400"
+# Font style metadata
+name = "Custom"
 
-[heading]
-  name = "Lora"
-  is_google = true
+# Google Fonts URL fragment (everything after the ?)
+google_fonts = "family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;1,400&family=Roboto+Mono"
 
-[body]
-  name = "Source Sans 3"
-  is_google = true
-
-[nav_links]
-  name = "Source Sans 3"
-  is_google = true
+# Font families
+heading_font = "Lora"
+body_font = "Source Sans 3"
+nav_font = "Source Sans 3"
+mono_font = "Roboto Mono"

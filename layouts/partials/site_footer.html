@@ -1,0 +1,17 @@
+{{/*
+  Local override of Wowchemy v5 site_footer.html.
+  Drops the visible "Published with Wowchemy" footer credit per site owner's
+  preference. Wowchemy attribution is preserved in the repository README.
+*/}}
+<footer class="site-footer">
+
+  {{ partial "wowchemy-core/functions/get_hook" (dict "hook" "footer-start" "context" .) }}
+
+  {{/* Load footer block */}}
+  {{ $footer_section_name := site.Params.footer.block | default "minimal" }}
+  {{ $footer_section_path := printf "components/footers/%s.html" $footer_section_name }}
+  {{ if not (templates.Exists (printf "partials/%s" $footer_section_path)) }}
+    {{ errorf "Check your `params.yaml`. Cannot find footer block at `layouts/partials/%s`" $footer_section_path }}
+  {{ end }}
+  {{ partial $footer_section_path . }}
+</footer>
