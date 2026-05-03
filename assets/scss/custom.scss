@@ -1,30 +1,71 @@
 // Custom styles for graziul.github.io narrative hub
+//
+// Wowchemy already centers prose pages in `.article-container`
+// (max-width: 760px, margin: 0 auto). Don't override `.page-body` —
+// it's the full-viewport grid row that holds header/main/footer.
 
-// Callout card grid for homepage
+// ---------------------------------------------------------------
+// Page title (h1) — tighten the default and shave the padding above
+// the empty article-metadata block.
+// ---------------------------------------------------------------
+
+.article-container > h1 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+// Wowchemy renders an empty `.article-metadata` block on plain pages.
+// Hide it when there's nothing meaningful inside.
+.article-metadata:empty,
+.article-metadata:not(:has(:not(:empty))) { display: none; }
+
+// ---------------------------------------------------------------
+// Homepage callouts
+// ---------------------------------------------------------------
+
 .graziul-callouts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
-  margin: 2rem 0;
+  margin: 2.5rem 0 1rem;
 }
 
 .graziul-callout {
+  display: flex;
+  flex-direction: column;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-top: 3px solid $sta-primary;
   padding: 1.5rem;
   border-radius: 4px;
+  background: rgba(0, 0, 0, 0.01);
+  transition: box-shadow 150ms ease, transform 150ms ease;
+
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    transform: translateY(-1px);
+  }
 
   h3 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
     font-size: 1.1rem;
+    line-height: 1.3;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      &:hover { color: $sta-primary; }
+    }
   }
 
   p {
-    color: $sta-menu-primary;
+    color: rgba(0, 0, 0, 0.72);
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.55;
     margin-bottom: 1rem;
+    flex-grow: 1;
   }
 
   a.callout-link {
@@ -32,53 +73,263 @@
     font-weight: 600;
     text-decoration: none;
     color: $sta-primary;
+    align-self: flex-start;
 
-    &:hover {
-      text-decoration: underline;
-    }
+    &:hover { text-decoration: underline; }
+  }
+
+  .callout-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    margin: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+
+    a.callout-link { align-self: auto; }
   }
 }
 
-// Dark mode callout borders
 .dark .graziul-callout {
   border-color: rgba(255, 255, 255, 0.12);
   border-top-color: $sta-primary;
+  background: rgba(255, 255, 255, 0.02);
+
+  &:hover { box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35); }
+
+  p { color: rgba(255, 255, 255, 0.78); }
 }
 
-// Prose pages — limit width for readability
-.page-body {
-  max-width: 720px;
-}
+// ---------------------------------------------------------------
+// Publication list
+// ---------------------------------------------------------------
 
-// Section headers on long pages
-.section-header {
-  border-bottom: 2px solid $sta-primary;
-  padding-bottom: 0.4rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-// Publication list items
 .pub-list {
   list-style: none;
   padding: 0;
+  margin: 0 0 1.5rem;
 
   li {
-    padding: 0.75rem 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    padding: 0.85rem 0 0.85rem 0.9rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    border-left: 2px solid transparent;
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.55;
+    transition: border-left-color 120ms ease, background-color 120ms ease;
+
+    &:last-child { border-bottom: none; }
+
+    &:hover {
+      border-left-color: $sta-primary;
+      background-color: rgba(26, 107, 107, 0.03);
+    }
+
+    a {
+      color: $sta-primary;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom-color 120ms ease;
+
+      &:hover { border-bottom-color: $sta-primary; }
+    }
   }
 
   .pub-award {
     display: inline-block;
     background: $sta-primary;
     color: white;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
     padding: 1px 7px;
     border-radius: 3px;
-    margin-left: 6px;
-    vertical-align: middle;
+    margin: 0 4px;
+    vertical-align: 0.08em;
   }
+}
+
+.dark .pub-list li {
+  border-bottom-color: rgba(255, 255, 255, 0.09);
+  &:hover { background-color: rgba(79, 179, 179, 0.06); }
+  a { color: $sta-primary; &:hover { border-bottom-color: $sta-primary; } }
+}
+
+// ---------------------------------------------------------------
+// Article prose tuning — applies to all content pages.
+// ---------------------------------------------------------------
+
+.article-style {
+  // Slightly more generous reading rhythm for narrative pages.
+  p {
+    line-height: 1.7;
+    margin-bottom: 1.15rem;
+  }
+
+  // Lead paragraph — first prose paragraph after the title.
+  > p:first-of-type {
+    font-size: 1.08rem;
+    color: rgba(0, 0, 0, 0.82);
+  }
+
+  h2 {
+    margin-top: 2.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid $sta-primary;
+    font-weight: 600;
+  }
+
+  h2:first-child { margin-top: 0.5rem; }
+
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+    color: $sta-primary;
+    font-weight: 600;
+  }
+
+  // Italic byline directly under an h2 or h3 (e.g. *Virginia Tech, 2004*)
+  // sits as a subdued institutional/temporal subtitle.
+  h2 + p > em:only-child,
+  h3 + p > em:only-child {
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.55);
+    font-size: 0.92rem;
+    letter-spacing: 0.005em;
+  }
+
+  h2 + p:has(> em:only-child),
+  h3 + p:has(> em:only-child) {
+    margin-bottom: 1.1rem;
+    margin-top: 0.35rem;
+  }
+
+  // Lead paragraph immediately after an h2 — slightly larger so each
+  // section opens with a clear narrative beat.
+  h2 + p:not(:has(> em:only-child)),
+  h2 + p:has(> em:only-child) + p {
+    font-size: 1.04rem;
+    color: rgba(0, 0, 0, 0.82);
+  }
+
+  // Inline emphasized labels at the start of paragraphs (e.g. **NIH project.** ...)
+  // get rendered as a bold lead-in. Give them a touch more presence so the
+  // mini-section structure is legible without becoming a heading.
+  p > strong:first-child {
+    color: $sta-primary;
+    font-weight: 700;
+  }
+
+  // Inline links in the prose — subtle teal underline.
+  p a, li a {
+    color: $sta-primary;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(26, 107, 107, 0.35);
+    transition: border-bottom-color 120ms ease, background-color 120ms ease;
+
+    &:hover {
+      border-bottom-color: $sta-primary;
+      background-color: rgba(26, 107, 107, 0.05);
+    }
+  }
+
+  // Section dividers — narrow centered rule with a small teal dot in the
+  // middle so transitions between sections feel intentional, not blank.
+  hr {
+    margin: 3rem auto;
+    width: 40%;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    position: relative;
+    overflow: visible;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: -3px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: $sta-primary;
+    }
+  }
+}
+
+.dark .article-style {
+  > p:first-of-type { color: rgba(255, 255, 255, 0.85); }
+  h3 { color: $sta-primary; }
+  h2 + p > em:only-child,
+  h3 + p > em:only-child { color: rgba(255, 255, 255, 0.55); }
+  h2 + p:not(:has(> em:only-child)),
+  h2 + p:has(> em:only-child) + p { color: rgba(255, 255, 255, 0.85); }
+  p > strong:first-child { color: $sta-primary; }
+  p a, li a {
+    color: $sta-primary;
+    border-bottom-color: rgba(79, 179, 179, 0.4);
+    &:hover {
+      border-bottom-color: $sta-primary;
+      background-color: rgba(79, 179, 179, 0.08);
+    }
+  }
+  hr { border-top-color: rgba(255, 255, 255, 0.15); }
+}
+
+// ---------------------------------------------------------------
+// Numbered "recipe" / framework lists — give them more presence
+// than a default ordered list without becoming a callout box.
+// ---------------------------------------------------------------
+
+.recipe-steps {
+  list-style: none;
+  counter-reset: recipe-counter;
+  padding: 0;
+  margin: 1.75rem 0;
+  border-left: 2px solid $sta-primary;
+
+  li {
+    counter-increment: recipe-counter;
+    position: relative;
+    padding: 0.5rem 0 0.5rem 3rem;
+    line-height: 1.6;
+
+    &::before {
+      content: counter(recipe-counter);
+      position: absolute;
+      left: 0.9rem;
+      top: 0.45rem;
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: $sta-primary;
+    }
+  }
+}
+
+// ---------------------------------------------------------------
+// Mobile tightening — narrow viewports get less padding so the
+// content takes fuller advantage of the screen.
+// ---------------------------------------------------------------
+
+@media (max-width: 575px) {
+  .article-container > h1 { font-size: 1.7rem; }
+
+  .graziul-callouts {
+    gap: 1rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  .graziul-callout { padding: 1.1rem; }
+
+  .article-style {
+    > p:first-of-type { font-size: 1.02rem; }
+    h2 { margin-top: 2.25rem; font-size: 1.4rem; }
+    h3 { margin-top: 1.6rem; font-size: 1.1rem; }
+    hr { width: 100%; margin: 2rem 0; }
+  }
+
+  .recipe-steps li { padding-left: 2.5rem; }
+
+  .pub-list li { font-size: 0.92rem; }
 }
