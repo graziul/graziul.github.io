@@ -13,7 +13,7 @@ sections:
 
         I build governance frameworks for AI systems that use data the law hasn't caught up to yet. The work is grounded in a decade of research on police radio communications, disaster response, and the limits of institutional action — and the communities that step in when institutions won't.
 
-        → [About me](/about/) &nbsp; → [Graziul Advisory](https://graziul.io){target="_blank"} &nbsp; → [IDEP](https://idep.org){target="_blank"}
+        → [About me](/about/) &nbsp;&nbsp; <a href="https://graziul.io" target="_blank" rel="noopener">→ Graziul Advisory ↗</a> &nbsp;&nbsp; <a href="https://idep.org" target="_blank" rel="noopener">→ IDEP ↗</a>
     design:
       columns: '1'
 
