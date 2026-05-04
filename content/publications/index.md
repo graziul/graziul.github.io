@@ -52,10 +52,10 @@ Logan, Graziul &amp; Frey (2018). "Neighborhood Formation in St. Louis, 1930." <
 Yi &amp; Graziul (2017). "Religious Conservatives and Outsiders: Determinants of Cross-Racial Ties among White Christians." <em>Review of Religious Research</em> 59(2), 231–250. <a href="https://doi.org/10.1007/s13644-016-0280-3">doi:10.1007/s13644-016-0280-3</a>
 </li>
 <li>
-Graziul (2016). "[Power chapter — full title TBD]." In Silver &amp; Clark (eds.), <em>Scenescapes: How Qualities of Place Shape Social Life</em>. University of Chicago Press.
+Graziul (2016). "Scene Power: How Scenes Influence Voting, Energize New Social Movements, and Generate Political Resources." In Silver &amp; Clark (eds.), <em>Scenescapes: How Qualities of Place Shape Social Life</em>. University of Chicago Press.
 </li>
 <li>
-Graziul (2016). "[Methodology chapter — full title TBD]." In Silver &amp; Clark (eds.), <em>Scenescapes: How Qualities of Place Shape Social Life</em>. University of Chicago Press.
+Silver, Clark &amp; Graziul (2016). "The Science of Scenes." In Silver &amp; Clark (eds.), <em>Scenescapes: How Qualities of Place Shape Social Life</em>. University of Chicago Press.
 </li>
 </ul>
 
@@ -63,10 +63,10 @@ Graziul (2016). "[Methodology chapter — full title TBD]." In Silver &amp; Clar
 
 <ul class="pub-list">
 <li>
-<strong>BPC-CPD corpus</strong> — Broadcast Police Communications, Chicago Police Department: 62,080 manually transcribed utterances (~46.2 hours) drawn from approximately 30,000 hours of CPD radio archive. The first corpus of its kind, built under a purpose-designed governance framework for sensitive open data. [Zenodo deposit URL TBD]
+Graziul, Spencer &amp; Kotarski (2024). <strong><a href="https://zenodo.org/records/15724888">BPC-CPD ASR Corpus</a></strong>. 62,080 manually transcribed utterances (~46 hours) of two-way radio communications about Chicago Police Department activity in 2018–19. Built under a purpose-designed governance framework for sensitive open data; access via data-use agreement. <a href="https://doi.org/10.5281/zenodo.15724888">doi:10.5281/zenodo.15724888</a>
 </li>
 <li>
-Graziul, Danton &amp; Ramos (2024). "The Case for a National Repository of Policing Data in the United States." <em>Knowledge@UChicago</em>, record 15600. <a href="https://knowledge.uchicago.edu/record/15600">knowledge.uchicago.edu/record/15600</a>
+Danton, Graziul &amp; Ramos (2025). "The Case for a National Repository of Policing Data in the United States." Open Repositories 2025 deposit, also accessioned as Knowledge@UChicago record 15600. <a href="https://doi.org/10.5281/zenodo.15758688">doi:10.5281/zenodo.15758688</a>
 </li>
 </ul>
 

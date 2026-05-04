@@ -11,7 +11,7 @@ sections:
       text: |
         # Christopher M. Graziul
 
-        Governance for AI systems that use data the law hasn't caught up to yet.
+        The tools we have weren't built for the questions we're actually asking.
     design:
       columns: '1'
 
@@ -32,6 +32,11 @@ sections:
 
         <h4>Browse</h4>
 
+        <a href="/about/" class="home-nav-card">
+        <span class="home-nav-card-title">About</span>
+        <span class="home-nav-card-blurb">A career assembled from physics, sociology, GIS, and community organizing — and why the combination is the point.</span>
+        </a>
+
         <a href="/self-organizing/" class="home-nav-card">
         <span class="home-nav-card-title">Self-Organizing</span>
         <span class="home-nav-card-blurb">CRHQ/CEDR, the ICML position paper, IDEP — three communities that found themselves around an unaddressed problem, and what makes them last.</span>
@@ -45,11 +50,6 @@ sections:
         <a href="/publications/" class="home-nav-card">
         <span class="home-nav-card-title">Publications</span>
         <span class="home-nav-card-blurb">Peer-reviewed and invited work, datasets, presentations.</span>
-        </a>
-
-        <a href="/about/" class="home-nav-card">
-        <span class="home-nav-card-title">About</span>
-        <span class="home-nav-card-blurb">A career assembled from physics, sociology, GIS, and community organizing — and why the combination is the point.</span>
         </a>
 
         <div class="home-nav-external">
