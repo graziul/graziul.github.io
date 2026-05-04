@@ -39,7 +39,7 @@ sections:
 
         <a href="/self-organizing/" class="home-nav-card">
         <span class="home-nav-card-title">Self-Organizing</span>
-        <span class="home-nav-card-blurb">CRHQ/CEDR, the ICML position paper, IDEP — three communities that found themselves around an unaddressed problem, and what makes them last.</span>
+        <span class="home-nav-card-blurb">CRHQ/CEDR, the ICML position paper, IDEP — three communities that found themselves through an unaddressed problem, and what makes them last.</span>
         </a>
 
         <a href="/academic-research/" class="home-nav-card">

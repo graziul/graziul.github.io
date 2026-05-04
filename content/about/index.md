@@ -17,8 +17,6 @@ education:
     year: 2004
 ---
 
-## Christopher M. Graziul
-
 Two B.S. degrees from Virginia Tech in 2004, in Physics and Mathematics. The decision to do both was straightforward: I wanted to work on problems that involved complex system dynamics, which required the formal mathematics under the physics, not just the physics. By the time I graduated, it was already clear that I was not going to be a physicist. What the training gave me, and what I kept, was the willingness to bring quantitative tools into messy social problems and the patience for work that takes a decade to come into focus.
 
 I came to the University of Chicago for a Master's in 2005 to find a discipline that took social systems seriously as objects of empirical study — one with theory, methods, and a substantive record of findings about how institutions actually behave when the people running them are not being watched. Sociology had that record. It also gave me something the technical training had skipped: the recognition that capability deployed without careful attention to how social systems actually work tends to produce new harms, usually for whoever was already worst positioned. That recognition has shaped every decision since — what to study, how to study it, who to do it with.
