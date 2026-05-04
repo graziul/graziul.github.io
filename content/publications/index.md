@@ -35,7 +35,7 @@ Srivastava, Chou, Shroff, Livescu &amp; Graziul (2024). "Speech Recognition for 
 Blili-Hamelin, Graziul et al. (2025). "Stop treating &lsquo;AGI&rsquo; as the north-star goal of AI research." <em>International Conference on Machine Learning (ICML)</em>, Vancouver, July 13–19. <a href="https://arxiv.org/abs/2502.03689">arXiv:2502.03689</a>
 </li>
 <li>
-Graziul, Belikov, Chattopadyay, Chen, Fang, Girdhar, Xiaoshuang, Krafft, Kleiman-Weiner, Lewis, Liang, Muchovej, Vientós, Young &amp; Evans (2023). "Does Big Data Serve Policy? Not Without Context. An Experiment with in silico Social Science." <em>Computational and Mathematical Organization Theory</em> 29(1), 188–219. <a href="https://doi.org/10.1007/s10588-022-09362-3">doi:10.1007/s10588-022-09362-3</a>
+Graziul, Belikov, Chattopadyay, Chen, Fang, Girdhar, Jia, Krafft, Kleiman-Weiner, Lewis, Liang, Muchovej, Vientós, Young &amp; Evans (2023). "Does Big Data Serve Policy? Not Without Context. An Experiment with in silico Social Science." <em>Computational and Mathematical Organization Theory</em> 29(1), 188–219. <a href="https://doi.org/10.1007/s10588-022-09362-3">doi:10.1007/s10588-022-09362-3</a>
 </li>
 </ul>
 
@@ -43,7 +43,7 @@ Graziul, Belikov, Chattopadyay, Chen, Fang, Girdhar, Xiaoshuang, Krafft, Kleiman
 
 <ul class="pub-list">
 <li>
-Graziul, Seymour &amp; Schleith (2018). "Commuting Behavior and Local Population Loss: Means of Transportation to Work as an Indicator of Urban Decline." In Franklin, van Leeuwen &amp; Páez (eds.), <em>Transportation in the Places Where People Leave</em> (Advances in Transport Policy and Planning, vol. 2), 185–205. Elsevier. <a href="https://doi.org/10.1016/bs.atpp.2018.09.005">doi:10.1016/bs.atpp.2018.09.005</a>
+Graziul, Seymour &amp; Schleith (2018). "Commuting Behavior and Local Population Loss: Means of Transportation to Work as an Indicator of Urban Decline." In Franklin, van Leeuwen &amp; Páez (eds.), <em>Population Loss: The Role of Transportation and Other Issues</em> (Advances in Transport Policy and Planning, vol. 2), 185–205. Elsevier. <a href="https://doi.org/10.1016/bs.atpp.2018.09.005">doi:10.1016/bs.atpp.2018.09.005</a>
 </li>
 <li>
 Logan, Graziul &amp; Frey (2018). "Neighborhood Formation in St. Louis, 1930." <em>Environment and Planning B: Urban Analytics and City Science</em> 45(6), 1157–1174. <a href="https://doi.org/10.1177/2399808318801958">doi:10.1177/2399808318801958</a>
@@ -85,10 +85,10 @@ Bellman, Martinez, Graziul &amp; Logan (2017). "Spatial and social contexts of m
 
 <ul class="pub-list">
 <li>
-Fajardo, Lodato-Nichols, Spencer &amp; Graziul (2022). "Positive Identity Development as an Integration Measure: Reframing Alternative Conceptual Findings for Academically Resilient, Low Income Urban Youth." In Johnson, Chuang &amp; Glozman (eds.), <em>Re/Formation and Identity: The Intersectionality of Development, Culture, and Immigration</em>. Springer.
+Fajardo, Nichols Lodato, Spencer &amp; Graziul (2022). "Positive Identity Development as an Integration Measure: Reframing Alternative Conceptual Findings for Academically Resilient, Low Income Urban Youth." In Johnson, Chuang &amp; Glozman (eds.), <em>Re/Formation and Identity: The Intersectionality of Development, Culture, and Immigration</em>. Springer.
 </li>
 <li>
-Spencer, Lodato-Nichols, Spencer, Rich, Graziul &amp; English-Clarke (2019). "Innovating Resilience Promotion: Integrating Cultural Practices, Social Ecologies and Development-Sensitive Conceptual Strategies for Advancing Child Well-Being." <em>Advances in Child Development and Behavior</em> 57, 101–148. JAI.
+Spencer, Nichols Lodato, Spencer, Rich, Graziul &amp; English-Clarke (2019). "Innovating Resilience Promotion: Integrating Cultural Practices, Social Ecologies and Development-Sensitive Conceptual Strategies for Advancing Child Well-Being." <em>Advances in Child Development and Behavior</em> 57, 101–148. JAI.
 </li>
 <li>
 Graziul, Gibbons &amp; Alexander (2012). "Association Between the Commercial Characteristics of Psychotropic Drugs and Their Off-label Use." <em>Medical Care</em> 50(11), 940–947. <a href="https://doi.org/10.1097/MLR.0b013e31826ec272">doi:10.1097/MLR.0b013e31826ec272</a>
