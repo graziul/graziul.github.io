@@ -24,7 +24,7 @@ sections:
 
         <article class="home-thesis" markdown="1">
 
-        *Thesis block — long-form intro. Coming soon.*
+        *Coming soon: live updates on how I see the world.*
 
         </article>
 

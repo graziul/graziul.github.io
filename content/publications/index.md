@@ -66,7 +66,7 @@ Silver, Clark &amp; Graziul (2016). "The Science of Scenes." In Silver &amp; Cla
 Graziul, Spencer &amp; Kotarski (2024). <strong><a href="https://zenodo.org/records/15724888">BPC-CPD ASR Corpus</a></strong>. 62,080 manually transcribed utterances (~46 hours) of two-way radio communications about Chicago Police Department activity in 2018–19. Built under a purpose-designed governance framework for sensitive open data; access via data-use agreement. <a href="https://doi.org/10.5281/zenodo.15724888">doi:10.5281/zenodo.15724888</a>
 </li>
 <li>
-Danton, Graziul &amp; Ramos (2025). "The Case for a National Repository of Policing Data in the United States." Open Repositories 2025 deposit, also accessioned as Knowledge@UChicago record 15600. <a href="https://doi.org/10.5281/zenodo.15758688">doi:10.5281/zenodo.15758688</a>
+Graziul, Keller &amp; Spencer (2025). <strong><a href="https://zenodo.org/records/18111458">CPD Beat to Census Block Crosswalk</a></strong>. Geographic crosswalk that lets researchers aggregate Census block-level data to CPD police beats and interpolate demographic and socioeconomic variables across boundaries using area-weighted methods on official Chicago and Census Bureau shapefiles. <a href="https://doi.org/10.5281/zenodo.18111458">doi:10.5281/zenodo.18111458</a>
 </li>
 </ul>
 
@@ -74,7 +74,10 @@ Danton, Graziul &amp; Ramos (2025). "The Case for a National Repository of Polic
 
 <ul class="pub-list">
 <li>
-Benjamin Bellman, Matthew Martinez, Christopher Graziul &amp; John Logan (2017). "Spatial and social contexts of mortality resulting from interactions with police." Population Association of America 2017 Annual Meeting, Chicago, April 27. — Early policing-and-GIS work that anticipated the radio-policing research program.
+Danton, Graziul &amp; Ramos (2025). "The Case for a National Repository of Policing Data in the United States." Open Repositories 2025, Chicago, June 15–18. <a href="https://doi.org/10.5281/zenodo.15758688">doi:10.5281/zenodo.15758688</a>
+</li>
+<li>
+Bellman, Martinez, Graziul &amp; Logan (2017). "Spatial and social contexts of mortality resulting from interactions with police." Population Association of America 2017 Annual Meeting, Chicago, April 27. — Early policing-and-GIS work (Benjamin Bellman, Matthew Martinez, Christopher Graziul, John Logan) that anticipated the radio-policing research program.
 </li>
 </ul>
 
