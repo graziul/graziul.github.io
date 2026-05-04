@@ -12,6 +12,10 @@ Before I could study police radio, I had to invent the governance for studying i
 
 The foundation of this research program is the BPC-CPD corpus: 62,080 manually transcribed utterances drawn from roughly 30,000 hours of Chicago Police Department radio archives, totaling approximately 46.2 hours of speech. It is the first corpus of its kind — built not because the raw recordings were hard to obtain, but because no research infrastructure, no governance model, and no analytical toolchain existed for working with them responsibly at scale. Building that infrastructure was most of the work.
 
+### Origins in spatial mortality work
+
+Before the radio data was a research program, it was a hypothesis: that the geography of police–civilian interactions, and the language of those interactions, was patterned in ways the existing literature had not yet measured. The earliest piece of work in that direction was a 2017 PAA paper with Bonnie Bellman, Manuel Martinez, and John Logan — *Spatial and social contexts of mortality resulting from interactions with police* — which used GIS methods to examine where fatal police encounters concentrate and what neighborhood characteristics predict them. That paper is the bridge between my earlier GIS infrastructure work at Brown and the NIH program that followed.
+
 ### The NIH project
 
 The first major analysis came through NIH R01MD015064, a $2.66M award from the National Institute on Minority Health and Health Disparities. I served as co-PI alongside Margaret Beale Spencer, whose Phenomenological Variant of Ecological Systems Theory (PVEST) framed the study, and led the data infrastructure and machine-learning modeling across the project. Roughly 50 graduate research assistants moved through the project across its life — annotating the corpus, evaluating models, running domain-specific subprojects, and learning the methods involved.

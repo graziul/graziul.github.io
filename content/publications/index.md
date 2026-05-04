@@ -6,11 +6,14 @@ share: false
 commentable: false
 ---
 
-A complete list. For day-to-day reference, the [Google Scholar profile](https://scholar.google.com/citations?user=OQr5RwsAAAAJ) and [ORCID record](https://orcid.org/0000-0001-8350-077X) are also kept current.
+A complete list, grouped by area. For day-to-day reference, the [Google Scholar profile](https://scholar.google.com/citations?user=OQr5RwsAAAAJ) and [ORCID record](https://orcid.org/0000-0001-8350-077X) are also kept current.
 
 ## AI Governance & Policing
 
 <ul class="pub-list">
+<li>
+Graziul &amp; Danton (2026). "The Commodification of Sensitive Open Data." <em><a href="https://katinamagazine.org/content/article/open-knowledge/2026/the-commodification-of-sensitive-open-data">Katina Magazine</a></em>.
+</li>
 <li>
 Danton &amp; Graziul (2026). "Confronting the Challenges of Sensitive Open Data." <em><a href="https://katinamagazine.org/content/article/open-knowledge/2026/confronting-the-challenges-of-sensitive-open-data">Katina Magazine</a></em>, January.
 </li>
@@ -49,22 +52,33 @@ Logan, Graziul &amp; Frey (2018). "Neighborhood Formation in St. Louis, 1930." <
 Yi &amp; Graziul (2017). "Religious Conservatives and Outsiders: Determinants of Cross-Racial Ties among White Christians." <em>Review of Religious Research</em> 59(2), 231–250. <a href="https://doi.org/10.1007/s13644-016-0280-3">doi:10.1007/s13644-016-0280-3</a>
 </li>
 <li>
-Silver, Clark &amp; Graziul (2016). "The Science of Scenes." In Silver &amp; Clark (eds.), <em>Scenescapes: How Qualities of Place Shape Social Life</em>. University of Chicago Press.
+Graziul (2016). "[Power chapter — full title TBD]." In Silver &amp; Clark (eds.), <em>Scenescapes: How Qualities of Place Shape Social Life</em>. University of Chicago Press.
+</li>
+<li>
+Graziul (2016). "[Methodology chapter — full title TBD]." In Silver &amp; Clark (eds.), <em>Scenescapes: How Qualities of Place Shape Social Life</em>. University of Chicago Press.
 </li>
 </ul>
 
-## Health Services & Pharmacology
+## Datasets
 
 <ul class="pub-list">
 <li>
-Graziul, Gibbons &amp; Alexander (2012). "Association Between the Commercial Characteristics of Psychotropic Drugs and Their Off-label Use." <em>Medical Care</em> 50(11), 940–947. <a href="https://doi.org/10.1097/MLR.0b013e31826ec272">doi:10.1097/MLR.0b013e31826ec272</a>
+<strong>BPC-CPD corpus</strong> — Broadcast Police Communications, Chicago Police Department: 62,080 manually transcribed utterances (~46.2 hours) drawn from approximately 30,000 hours of CPD radio archive. The first corpus of its kind, built under a purpose-designed governance framework for sensitive open data. [Zenodo deposit URL TBD]
 </li>
 <li>
-Kozman, Graziul, Gibbons &amp; Alexander (2012). "Association Between Unemployment Rates and Prescription Drug Utilization in the United States, 2007–2010." <em>BMC Health Services Research</em> 12(1), 435. <a href="https://doi.org/10.1186/1472-6963-12-435">doi:10.1186/1472-6963-12-435</a>
+Graziul, Danton &amp; Ramos (2024). "The Case for a National Repository of Policing Data in the United States." <em>Knowledge@UChicago</em>, record 15600. <a href="https://knowledge.uchicago.edu/record/15600">knowledge.uchicago.edu/record/15600</a>
 </li>
 </ul>
 
-## Book Chapters in Child Development
+## Presentations (selected)
+
+<ul class="pub-list">
+<li>
+Bellman, Martinez, Graziul &amp; Logan (2017). "Spatial and social contexts of mortality resulting from interactions with police." Population Association of America 2017 Annual Meeting, Chicago, April 27. — Early policing-and-GIS work that anticipated the radio-policing research program.
+</li>
+</ul>
+
+## Other Research
 
 <ul class="pub-list">
 <li>
@@ -73,13 +87,11 @@ Fajardo, Lodato-Nichols, Spencer &amp; Graziul (2022). "Positive Identity Develo
 <li>
 Spencer, Lodato-Nichols, Spencer, Rich, Graziul &amp; English-Clarke (2019). "Innovating Resilience Promotion: Integrating Cultural Practices, Social Ecologies and Development-Sensitive Conceptual Strategies for Advancing Child Well-Being." <em>Advances in Child Development and Behavior</em> 57, 101–148. JAI.
 </li>
-</ul>
-
-## Invited & Other Writing
-
-<ul class="pub-list">
 <li>
-Graziul &amp; Danton (2026). "Recognizing Data-as-Commodity: Data Rights as Property Rights." <em>Katina Magazine</em>.
+Graziul, Gibbons &amp; Alexander (2012). "Association Between the Commercial Characteristics of Psychotropic Drugs and Their Off-label Use." <em>Medical Care</em> 50(11), 940–947. <a href="https://doi.org/10.1097/MLR.0b013e31826ec272">doi:10.1097/MLR.0b013e31826ec272</a>
+</li>
+<li>
+Kozman, Graziul, Gibbons &amp; Alexander (2012). "Association Between Unemployment Rates and Prescription Drug Utilization in the United States, 2007–2010." <em>BMC Health Services Research</em> 12(1), 435. <a href="https://doi.org/10.1186/1472-6963-12-435">doi:10.1186/1472-6963-12-435</a>
 </li>
 <li>
 Clark &amp; Graziul (2008). "Why Rich States Aren't Republican." Book review in <em>Science</em> 322(5902), 676–677. <a href="https://doi.org/10.1126/science.1166194">doi:10.1126/science.1166194</a>
