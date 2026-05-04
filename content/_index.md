@@ -34,7 +34,7 @@ sections:
 
         <a href="/about/" class="home-nav-card">
         <span class="home-nav-card-title">About</span>
-        <span class="home-nav-card-blurb">A career assembled from physics, sociology, GIS, and community organizing — and why the combination is the point.</span>
+        <span class="home-nav-card-blurb">A career assembled from physics, sociology, GIS, and self-organizing community — and why the combination is the point.</span>
         </a>
 
         <a href="/self-organizing/" class="home-nav-card">
