@@ -12,7 +12,7 @@ A complete list, grouped by area. For day-to-day reference, the [Google Scholar 
 
 <ul class="pub-list">
 <li>
-Graziul &amp; Danton (2026). "The Commodification of Sensitive Open Data." <em><a href="https://katinamagazine.org/content/article/open-knowledge/2026/the-commodification-of-sensitive-open-data">Katina Magazine</a></em>.
+Graziul &amp; Danton (2026). "The Commodification of Sensitive Open Data." <em><a href="https://katinamagazine.org/content/article/open-knowledge/2026/the-commodification-of-sensitive-open-data">Katina Magazine</a></em>, April.
 </li>
 <li>
 Danton &amp; Graziul (2026). "Confronting the Challenges of Sensitive Open Data." <em><a href="https://katinamagazine.org/content/article/open-knowledge/2026/confronting-the-challenges-of-sensitive-open-data">Katina Magazine</a></em>, January.
@@ -74,7 +74,7 @@ Danton, Graziul &amp; Ramos (2025). "The Case for a National Repository of Polic
 
 <ul class="pub-list">
 <li>
-Bellman, Martinez, Graziul &amp; Logan (2017). "Spatial and social contexts of mortality resulting from interactions with police." Population Association of America 2017 Annual Meeting, Chicago, April 27. — Early policing-and-GIS work that anticipated the radio-policing research program.
+Benjamin Bellman, Matthew Martinez, Christopher Graziul &amp; John Logan (2017). "Spatial and social contexts of mortality resulting from interactions with police." Population Association of America 2017 Annual Meeting, Chicago, April 27. — Early policing-and-GIS work that anticipated the radio-policing research program.
 </li>
 </ul>
 

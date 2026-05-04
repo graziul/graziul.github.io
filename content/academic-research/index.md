@@ -14,11 +14,9 @@ The foundation of this research program is the BPC-CPD corpus: 62,080 manually t
 
 ### Origins in spatial mortality work
 
-Before the radio data was a research program, it was a hypothesis: that the geography of police–civilian interactions, and the language of those interactions, was patterned in ways the existing literature had not yet measured. The earliest piece of work in that direction was a 2017 PAA paper with Bonnie Bellman, Manuel Martinez, and John Logan — *Spatial and social contexts of mortality resulting from interactions with police* — which used GIS methods to examine where fatal police encounters concentrate and what neighborhood characteristics predict them. That paper is the bridge between my earlier GIS infrastructure work at Brown and the NIH program that followed.
+Before the radio data was a research program, it was a hypothesis: that the geography of police–civilian interactions, and the language of those interactions, was patterned in ways the existing literature had not yet measured. The earliest piece of work in that direction was a 2017 PAA paper with Benjamin Bellman, Matthew Martinez, and John Logan — *Spatial and social contexts of mortality resulting from interactions with police* — which used GIS methods to examine where fatal police encounters concentrate and what neighborhood characteristics predict them. That paper is the bridge between my earlier GIS infrastructure work at Brown and the NIH program that followed.
 
-### The NIH project
-
-The first major analysis came through NIH R01MD015064, a $2.66M award from the National Institute on Minority Health and Health Disparities. I served as co-PI alongside Margaret Beale Spencer, whose Phenomenological Variant of Ecological Systems Theory (PVEST) framed the study, and led the data infrastructure and machine-learning modeling across the project. Roughly 50 graduate research assistants moved through the project across its life — annotating the corpus, evaluating models, running domain-specific subprojects, and learning the methods involved.
+The hypothesis became a research program through NIH R01MD015064, a $2.66M award from the National Institute on Minority Health and Health Disparities (2021–2025). I served as co-PI alongside Margaret Beale Spencer, whose Phenomenological Variant of Ecological Systems Theory (PVEST) framed the study, and led data infrastructure and machine-learning modeling across the project. Roughly 50 graduate research assistants moved through the program — annotating the corpus, evaluating models, running domain-specific subprojects, and learning the methods involved. Each of the pieces below came out of that grant.
 
 ### Speech recognition
 
