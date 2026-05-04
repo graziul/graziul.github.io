@@ -5,54 +5,61 @@ type: landing
 
 sections:
   - block: markdown
-    id: home
+    id: home-hero
     content:
       title: ""
       text: |
         # Christopher M. Graziul
 
-        I build governance frameworks for AI systems that use data the law hasn't caught up to yet. The work is grounded in a decade of research on police radio communications, disaster response, and the limits of institutional action — and the communities that step in when institutions won't.
-
-        → [About me](/about/) &nbsp;&nbsp; <a href="https://graziul.io" target="_blank" rel="noopener">→ Graziul Advisory ↗</a> &nbsp;&nbsp; <a href="https://idep.org" target="_blank" rel="noopener">→ IDEP ↗</a>
+        Governance for AI systems that use data the law hasn't caught up to yet.
     design:
       columns: '1'
 
   - block: markdown
+    id: home-body
     content:
       title: ""
       text: |
-        ---
+        <div class="home-grid">
 
-        <div class="graziul-callouts">
-        <div class="graziul-callout">
-        <h3><a href="/self-organizing/">Self-Organizing</a></h3>
-        <p>CRHQ/CEDR, the ICML position paper, IDEP — three communities that found themselves around an unaddressed problem. I joined two as a volunteer and built the third as infrastructure. What they share isn't who started them; it's what makes them survive.</p>
-        <a href="/self-organizing/" class="callout-link">How this works →</a>
-        </div>
-        <div class="graziul-callout">
-        <h3><a href="/academic-research/">Academic Research</a></h3>
-        <p>Policing as a sociotechnical system. Sensitive open data. The limits of measuring your way to good AI governance.</p>
-        <a href="/academic-research/" class="callout-link">See the work →</a>
-        </div>
-        <div class="graziul-callout">
-        <h3>Applied Work</h3>
-        <p>Where the research becomes practice. AI governance consulting through Graziul Advisory; community-led data governance infrastructure through the Illinois Data Equity Project.</p>
-        <p class="callout-actions">
-        <a href="https://graziul.io" target="_blank" rel="noopener" class="callout-link">Graziul Advisory ↗</a>
-        <a href="https://idep.org" target="_blank" rel="noopener" class="callout-link">IDEP ↗</a>
-        </p>
-        </div>
-        </div>
-    design:
-      columns: '1'
+        <article class="home-thesis" markdown="1">
 
-  - block: markdown
-    content:
-      title: ""
-      text: |
-        ---
+        *Thesis block — long-form intro. Coming soon.*
 
-        *Thesis block — short assertions about the current AI governance moment with citations. Coming soon.*
+        </article>
+
+        <aside class="home-nav">
+
+        <h4>Browse</h4>
+
+        <a href="/self-organizing/" class="home-nav-card">
+        <span class="home-nav-card-title">Self-Organizing</span>
+        <span class="home-nav-card-blurb">CRHQ/CEDR, the ICML position paper, IDEP — three communities that found themselves around an unaddressed problem, and what makes them last.</span>
+        </a>
+
+        <a href="/academic-research/" class="home-nav-card">
+        <span class="home-nav-card-title">Academic Research</span>
+        <span class="home-nav-card-blurb">Policing as a sociotechnical system. Sensitive open data. The limits of measuring our way to good AI governance.</span>
+        </a>
+
+        <a href="/publications/" class="home-nav-card">
+        <span class="home-nav-card-title">Publications</span>
+        <span class="home-nav-card-blurb">Peer-reviewed and invited work, datasets, presentations.</span>
+        </a>
+
+        <a href="/about/" class="home-nav-card">
+        <span class="home-nav-card-title">About</span>
+        <span class="home-nav-card-blurb">A career assembled from physics, sociology, GIS, and community organizing — and why the combination is the point.</span>
+        </a>
+
+        <div class="home-nav-external">
+          <a href="https://graziul.io" target="_blank" rel="noopener">Graziul Advisory ↗</a>
+          <a href="https://idep.org" target="_blank" rel="noopener">IDEP ↗</a>
+        </div>
+
+        </aside>
+
+        </div>
     design:
       columns: '1'
 ---

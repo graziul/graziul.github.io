@@ -22,7 +22,136 @@
 .article-metadata:not(:has(:not(:empty))) { display: none; }
 
 // ---------------------------------------------------------------
-// Homepage callouts
+// Homepage layout — thesis on left, side nav on right.
+// Below 992px the sidebar drops below the thesis.
+// ---------------------------------------------------------------
+
+.home-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 3rem;
+  margin: 1.25rem 0 2rem;
+  align-items: start;
+
+  @media (max-width: 991.98px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.home-thesis {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: rgba(0, 0, 0, 0.85);
+
+  > p:first-child { margin-top: 0; }
+
+  > em:only-child,
+  > p:only-child > em:only-child {
+    color: rgba(0, 0, 0, 0.55);
+  }
+}
+
+.dark .home-thesis {
+  color: rgba(255, 255, 255, 0.88);
+  > em:only-child,
+  > p:only-child > em:only-child { color: rgba(255, 255, 255, 0.5); }
+}
+
+.home-nav {
+  position: sticky;
+  top: 90px;
+
+  @media (max-width: 991.98px) {
+    position: static;
+    top: auto;
+  }
+
+  h4 {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 0 0.4rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid $sta-primary;
+  }
+}
+
+.home-nav-card {
+  display: block;
+  padding: 0.95rem 0 0.95rem 0.4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  text-decoration: none;
+  color: inherit;
+  border-left: 2px solid transparent;
+  transition: padding-left 150ms ease, border-left-color 150ms ease,
+              background-color 150ms ease;
+
+  &:hover {
+    padding-left: 0.7rem;
+    border-left-color: $sta-primary;
+    background-color: rgba(26, 107, 107, 0.03);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .home-nav-card-title {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.92);
+    margin-bottom: 0.3rem;
+    line-height: 1.3;
+  }
+
+  .home-nav-card-blurb {
+    display: block;
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.62);
+    line-height: 1.45;
+  }
+
+  &:hover .home-nav-card-title { color: $sta-primary; }
+}
+
+.home-nav-external {
+  margin-top: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+
+  a {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: $sta-primary;
+    text-decoration: none;
+
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.dark {
+  .home-nav h4 { color: rgba(255, 255, 255, 0.55); }
+  .home-nav-card {
+    border-bottom-color: rgba(255, 255, 255, 0.09);
+    &:hover { background-color: rgba(79, 179, 179, 0.05); }
+    .home-nav-card-title { color: rgba(255, 255, 255, 0.92); }
+    .home-nav-card-blurb { color: rgba(255, 255, 255, 0.62); }
+    &:hover .home-nav-card-title { color: $sta-primary; }
+  }
+}
+
+// On the homepage, suppress the bottom margin on the hero section so the
+// hero and body grid sit closer together.
+#home-hero { padding-bottom: 0.5rem; }
+#home-body { padding-top: 1rem; }
+
+// ---------------------------------------------------------------
+// Homepage callouts (legacy class — preserved in case it's used
+// on subpages; replaced on the home page by .home-grid)
 // ---------------------------------------------------------------
 
 .graziul-callouts {
