@@ -19,7 +19,7 @@ role: Independent Scholar
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Illinois Data Equity PRoject
-    url: https://wwww.idep.org
+    url: https://www.idep.org
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include computational social science, critical policing studies, and urban sociology
