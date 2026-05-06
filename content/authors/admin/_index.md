@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Christopher M. Graziul
+title: Christopher Graziul
 
 # Full name (for SEO)
 first_name: Christopher
@@ -18,7 +18,7 @@ role: Independent Scholar
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Illinois Data Equity PRoject
+  - name: Illinois Data Equity Project
     url: https://www.idep.org
 
 # Short bio (displayed in user profile at end of posts)
