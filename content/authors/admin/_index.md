@@ -14,17 +14,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Executive Director, IDEP · Computational Sociologist
+role: Preceptor, Digital Studies
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Illinois Data Equity Project
-    url: https://idep.org
-  - name: Graziul Advisory
-    url: https://graziul.io
+  - name: University of Chicago
+    url: https://digitalstudies.uchicago.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Executive Director of the Illinois Data Equity Project (IDEP) and Principal of Graziul Advisory. Computational sociologist working on data governance, participatory AI/ML, and the institutional gaps between what AI systems can do and what law and ethics currently require.
+bio: My research interests include computational social science, critical policing studies, and urban sociology
 
 # Interests to show in About widget
 interests:
