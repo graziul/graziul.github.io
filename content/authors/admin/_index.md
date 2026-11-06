@@ -89,6 +89,4 @@ Since little work has explored how officers use two-way radio in practice, much 
 
 My aspirations include (a) development of decentralized participatory data governance policies, with initial focus on policing data; (b) deployment of explainable models for processing unstructured policing data, specifically radio transmissions; (c) engagement with community members to determine standards for responsible access to policing data and identify research questions that address the needs and concerns of local residents. 
 
-I am currently on the tenure-track faculty job market, but I also love to do time-bounded projects! 
-
 {style="text-align: justify;"}
